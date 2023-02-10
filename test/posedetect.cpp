@@ -169,7 +169,7 @@ int main(int argc,char ** argv)
     cout << "width    : "<< model_width << endl;
     cout << "channels : "<< model_channels << endl;
 
-    VideoCapture cap("Dance.mp4");
+    VideoCapture cap(0); // here the video is using the raspberrypi camera
     if (!cap.isOpened()) {
         cerr << "ERROR: Unable to open the camera" << endl;
         return 0;
