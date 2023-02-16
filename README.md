@@ -17,9 +17,10 @@ Keep up to date with gymBuddi and the team on all our social media platforms!
 Hyperlinks to socials as pictures
 
 Synapse is biult using the following 
+
 C++
 OpenCV
-RaspberryPi
+Raspberry Pi
 Posenet
 
 
