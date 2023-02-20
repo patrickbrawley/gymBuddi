@@ -1,16 +1,23 @@
 The graphical user interface (GUI) was designed using Qt Creator 9.0.1. In order to achieve the final desktop GUI, firstly, sequence diagrams where established which laid out the operation for the GymBuddi and how the subsequent objects communicate with each other.   
 
-#stage 1 create a GUI that has an on off button for the camera and displays the camera output on screen
+#Stage 1 - Create a GUI that has an on/off button for the camera, and displays the camera output onto the display.
+  #Stage 1 - Process:
 
-#create on off button for the detection system
-#The on input from the button turns the camera on
-#Get input for camera
-#send camera input to diplay window
-#The off input from the button turns off the camera and the display in the window
+    #Create on/off button for the detection system.
+    #The on input from the button turns the camera on.
+    #Get input for camera.
+    #Send camera input to diplay window.
+    #The off input from the button turns off the camera and the display in the window.
 
-#Stage 2 Create a GUI that has an option to change the selected excersie
-
-#Create the select excesie button
-#When the on/off button is in off mode 
-#The select excerise button opens a new window with the list of excerises (using a generic list for exercises)
-#Selecting the excerise closes the window and updates the display for the excerise information
+#Stage 2 - Create a GUI that has an option to change the selected excersie
+  #Stage 2 - Process:
+ 
+    #Create the "Select Exercise" button.
+    #When the on/off button is in off mode, the select excerise button opens a new window with the list of excerises (using a generic list for exercises).
+    #Selecting the exercise closes the window and updates the display for the excerise information.
+    
+ #Stage 3 - Create a GUI that  
+  #Stage 3 - Process:
+ 
+    #
+    
