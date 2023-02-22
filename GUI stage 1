@@ -1,6 +1,21 @@
+#Class for the GUI
+
+	#Class start/stop button
+		#Create start button on right side of the screen
+		#inputs = user interaction
+		#output = button state
+		
+	#Class Camera
+		#inputs = button state
+		#output = camera data
+		
+	#Class display window
+		#inputs = camera data, button state, 
+
+
 # Inital screen shows start button
 
-	#Create strat button on right side of the screen
+	
 	
 #Press start button to display camera on screen
 
