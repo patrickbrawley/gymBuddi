@@ -3,10 +3,11 @@
 <!-- LOGO AND SLOGAN -->
 </br>
 <div align="center">
-   <h1 align="center">GymBuddi</h1>
-   <img src=https://github.com/patrickbrawley/gymBuddi/tree/Update-about-me/images/gymbuddi_landscape_logo.PNG alt="logo" width="400" div align=center />
+
+   <img src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/gymbuddi_landscape_logo.png alt="logo" width="400" div align=center />
    </br>
-Never work out alone again with GymBuddi by your side. Elevate your fitness with our AI-enhaced repetition counting and form correction software.
+   </br>
+<b> Never work out alone again with GymBuddi by your side. Elevate your fitness with our AI-enhaced repetition counting and form correction software. </b>
    </br>
    </br>
 </div>
@@ -22,15 +23,15 @@ Never work out alone again with GymBuddi by your side. Elevate your fitness with
    </br> 
    </div> 
 
-   [![demo](https://github.com/patrickbrawley/gymBuddi/tree/Update-about-me/images/ProperForm.PNG)](https://www.youtube.com/watch?v=dBJry3tcX0Q)
+   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/ProperForm.png)](https://www.youtube.com/watch?v=dBJry3tcX0Q)
    </br>
 
 <div align="left">
    <h2>Social Media</h2>
    <p>Keep up to date with all the latest updates on our social media channels!</p>
    <p align="center">
-<a href="https://twitter.com" target="blank"><img align="center" src="https://github.com/patrickbrawley/gymBuddi/tree/Update-about-me/images/twitter.PNG" alt="twitter" height="150" width="100" /></a>·
-<a href="https://instagram.com" target="blank"><img align="center" src="https://github.com/patrickbrawley/gymBuddi/tree/Update-about-me/images/instagram.PNG" alt="instagram" height="150" width="100" /></a>·
+<a href="https://twitter.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/twitter.png alt="twitter" height="150" width="100" /></a>·
+<a href="https://instagram.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
 
 
 
