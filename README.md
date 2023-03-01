@@ -32,6 +32,19 @@
    <p align="center">
 <a href="https://twitter.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/twitter.png alt="twitter" height="150" width="100" /></a>·
 <a href="https://instagram.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
+    </br>
+    </br>
+</div>
+    <h2> About us </h2>
+    </br>
+    <p> GymBuddi is being developed by a team of MEng Electronic and Electrical Engineering students from the University of Glasgow, please feel free to get in contact with any of us if you have any questions. </p>
+    <ul>
+   <li> 2389769m@student.gla.ac.uk - Lorcan McDermott </li>
+   <li> 2388886b@student.gla.ac.uk - Patrick Brawley  </li>
+   <li> 2390462k@student.gla.ac.uk - Reece Kelly </li>
+   <li> 2355831r@student.gla.ac.uk - Andrew Rollo </li>
+    </ul>
+    
 
 
 
