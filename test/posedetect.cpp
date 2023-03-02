@@ -49,11 +49,11 @@ void GetImageTFLite(float* out, Mat &src)
     uint8_t *in;
     static Mat image;
 
-    // copy image to input as input tensor
+    /// copy image to input as input tensor.
     cv::resize(src, image, Size(model_width,model_height),INTER_NEAREST);
 
-    //model posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite runs from -1.0 ... +1.0
-    //model multi_person_mobilenet_v1_075_float.tflite                 runs from  0.0 ... +1.0
+    ///model posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite runs from -1.0 ... +1.0.
+    ///model multi_person_mobilenet_v1_075_float.tflite                 runs from  0.0 ... +1.0.
     in=image.data;
     Len=image.rows*image.cols*image.channels();
     for(i=0;i<Len;i++){
@@ -66,13 +66,13 @@ void detect_from_video(Mat &src)
 {
     int i,x,y,j;
     static Point Pnt[17];                       //heatmap
-    static float Cnf[17];                       //confidence table
-    static Point Loc[17];                       //location in image
-    const float confidence_threshold = -1.0;    //confidence can be negative
+    static float Cnf[17];                       ///confidence table.  ///how sure the software is to mapping the correct body location.
+    static Point Loc[17];                       //location in image. ///coordinates of where the body locations are. 
+    const float confidence_threshold = -1.0;    //confidence threshold. ///the confidence threshold of the body locations If body locations confidence is greater than the threshold then the body location will be mapped Here you set the value.
 
     GetImageTFLite(interpreter->typed_tensor<float>(interpreter->inputs()[0]), src);
 
-    interpreter->Invoke();      // run your model
+    interpreter->Invoke();      /// This is where you run your model
 
     // 1 * 9 * 9 * 17 contains heatmaps
     const float* heatmapShape = interpreter->tensor(interpreter->outputs()[0])->data.f;
@@ -82,8 +82,11 @@ void detect_from_video(Mat &src)
 //    const float* dispFwdShape = interpreter->tensor(interpreter->outputs()[2])->data.f;
     // 1 * 9 * 9 * 32 contains backward displacements
 //    const float* dispBckShape = interpreter->tensor(interpreter->outputs()[3])->data.f;
+    
+ 
+    /// Gets the locations coordinates.
+    /// Finds the (row, col) locations of where the keypoints are most likely to be.
 
-    // Finds the (row, col) locations of where the keypoints are most likely to be.
     for(i=0;i<17;i++){
         Cnf[i]=heatmapShape[i];     //x=y=0 -> j=17*(9*0+0)+i; -> j=i
         for(y=0;y<9;y++){
@@ -96,7 +99,7 @@ void detect_from_video(Mat &src)
         }
     }
 
-    // Calculating the x and y coordinates of the keypoints with offset adjustment.
+    /// Calculating the x and y coordinates of the keypoints with offset adjustment.
     for(i=0;i<17;i++){
         x=Pnt[i].x; y=Pnt[i].y; j=34*(9*y+x)+i;
         Loc[i].y=(y*src.rows)/8 + offsetShape[j   ];
@@ -148,10 +151,11 @@ int main(int argc,char ** argv)
 
     for(i=0;i<16;i++) FPS[i]=0.0;
 
-    // Load model
+    /// Load model.
+    /// This section loads the tensorflow lite model being used in this case it is Posenet.
     std::unique_ptr<FlatBufferModel> model = FlatBufferModel::BuildFromFile("posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite");
 
-    // Build the interpreter
+    /// Build the interpreter.
     ops::builtin::BuiltinOpResolver resolver;
     InterpreterBuilder(*model.get(), resolver)(&interpreter);
 
@@ -159,8 +163,8 @@ int main(int argc,char ** argv)
     interpreter->SetAllowFp16PrecisionForFp32(true);
     interpreter->SetNumThreads(4);      //quad core
 
-    // Get input dimension from the input tensor metadata
-    // Assuming one input only
+    /// Get input dimension from the input tensor metadata.
+    /// Assuming one input only.
     In = interpreter->inputs()[0];
     model_height   = interpreter->tensor(In)->dims->data[1];
     model_width    = interpreter->tensor(In)->dims->data[2];
@@ -169,7 +173,9 @@ int main(int argc,char ** argv)
     cout << "width    : "<< model_width << endl;
     cout << "channels : "<< model_channels << endl;
 
-    VideoCapture cap(0); // here the video is using the raspberrypi camera
+ /// Set the input into the algorithm.
+ /// here the video is using the raspberrypi camera.
+    VideoCapture cap(0); 
     if (!cap.isOpened()) {
         cerr << "ERROR: Unable to open the camera" << endl;
         return 0;
@@ -187,7 +193,8 @@ int main(int argc,char ** argv)
         detect_from_video(frame);
 
         Tend = chrono::steady_clock::now();
-        //calculate frame rate
+        ///calculate frame rate to display 
+        ///The higher the frame rate the better as it is in more realtime
         f = chrono::duration_cast <chrono::milliseconds> (Tend - Tbegin).count();
 
         Tbegin = chrono::steady_clock::now();
@@ -196,7 +203,8 @@ int main(int argc,char ** argv)
         for(f=0.0, i=0;i<16;i++){ f+=FPS[i]; }
         putText(frame, format("FPS %0.2f",f/16),Point(10,20),FONT_HERSHEY_SIMPLEX,0.6, Scalar(0, 0, 255));
 
-        //show output
+        ///show output.
+       /// outputted camera screen will now have the skeleton over the person.
         imshow("RPi 4 - 1.95 GHz - 2 Mb RAM", frame);
 
         char esc = waitKey(5);
@@ -205,7 +213,7 @@ int main(int argc,char ** argv)
 
     cout << "Closing the camera" << endl;
 
-    // When everything done, release the video capture and write object
+    /// When everything done, release the video capture and write object.
     cap.release();
 
     destroyAllWindows();
