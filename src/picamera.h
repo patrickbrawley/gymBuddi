@@ -11,7 +11,7 @@
 #include <iostream>
 #include <thread>
 
-//
+//defines several error codes that are used by the errCode 
 enum Err_type{
     NO_ERROR,
     ERR_INIT,
@@ -25,22 +25,22 @@ private:
         int camIdx; 
         int camApi;
         bool isOn = false;
-    } CamSettings;
+    } CamSettings;             // CamSettings is a structure containing camera settings such as the camera index, camera API, and whether the camera is on.
 
-    int errCode;
-    cv::Mat currentFrame;
-    cv::VideoCapture activeCapture;
-    std::thread camThread;
-    void camThreadLoop();
+    int errCode;               //errCode is an integer that holds the error code of the camera, which is used for error handling. 
+    cv::Mat currentFrame;      // currentFrame is a cv::Mat object that holds the current frame captured by the camera. 
+    cv::VideoCapture activeCapture;    //activeCapture is a cv::VideoCapture object that manages the camera capture process.
+    std::thread camThread;      //camThread is a std::thread object that handles the camera capture process in a separate thread.
+    void camThreadLoop();       
 
 public:
-    Camera(int camIdx = 0, int camApi = cv::CAP_ANY);
-    ~Camera();
+    Camera(int camIdx = 0, int camApi = cv::CAP_ANY);  //Constructor, initializes the camera settings and opens the camera capture
+    ~Camera();                                         //Destructure releases the camera capture and stops the camera thread.
     //virtual void hasFrame(cv::Mat frame) = 0;
-    void display(); // Temporary
-    void startRecording();
-    void stopRecording();
-    int getErr();
+    void display(); // displays the current frame on the screen.
+    void startRecording(); //starts the camera capture thread.
+    void stopRecording(); //stops the camera capture thread
+    int getErr();         // returns the error code of the camera.     
     
 };
 
