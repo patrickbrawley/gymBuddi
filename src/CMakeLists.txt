@@ -12,6 +12,7 @@ include_directories(
 # Add source files
 set(SOURCES
     picamera.cpp
+    main.cpp
 )
 
 # Create executable
