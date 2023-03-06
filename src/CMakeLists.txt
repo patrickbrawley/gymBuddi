@@ -19,6 +19,7 @@ set(SOURCES
 add_executable(myprogram ${SOURCES})
 
 # Link libraries
+target_link_libraries(myprogram pthread)
 target_link_libraries(myprogram
     ${OpenCV_LIBS}
 )
