@@ -1,17 +1,17 @@
-#ifndef IMAGE_SHOW_H
-#define IMAGE_SHOW_H
+#ifndef EXERCISEIMAGE_H
+#define EXERCISEIMAGE_H
 
 #include <iostream>
 #include <string>
 #include <vector>
-#include <thread> // the C++11 standard
+#include <thread> 
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 
 
 class IMAGEcallback{
     public:
-    virtual void yoga_thread(std::string cam_path, std::string img_path) = 0;
+    virtual void exercise_thread(std::string cam_path, std::string img_path) = 0;
 };
 
 
