@@ -31,7 +31,7 @@
    <p>Keep up to date with all the latest updates on our social media channels!</p>
    <p align="center">
 <a href="https://twitter.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/twitter.png alt="twitter" height="150" width="100" /></a>·
-<a href="https://instagram.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
+<a href="https://instagram.com/gymbuddipi/" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
     </br>
     </br>
 </div>
