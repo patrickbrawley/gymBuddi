@@ -44,6 +44,9 @@
    <li> 2390462k@student.gla.ac.uk - Reece Kelly </li>
    <li> 2355831r@student.gla.ac.uk - Andrew Rollo </li>
     </ul>
+    </br>
+    <h2> License </h2>
+    <p> This project is licensed under the terms of the MIT license. </p>
     
 
 
