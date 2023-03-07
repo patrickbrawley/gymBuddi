@@ -12,8 +12,8 @@
 #include <opencv2/opencv.hpp>
 
 #include "pose_engine.h"
-#include "image_processor.h"
-#include "image_show.h"
+#include "imageprocessor.h"
+#include "exerciseimage.h"
 
 
 // Define an array to hold angle check results for each image
