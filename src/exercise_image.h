@@ -1,5 +1,5 @@
-#ifndef EXERCISEIMAGE_H
-#define EXERCISEIMAGE_H
+#ifndef EXERCISE_IMAGE_H
+#define EXERCISE_IMAGE_H
 
 #include <iostream>
 #include <string>
