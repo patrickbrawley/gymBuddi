@@ -11,9 +11,9 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "pose_engine.h"
-#include "imageprocessor.h"
-#include "exerciseimage.h"
+#include "tensorflow_set.h"
+#include "pose_comparison.h"
+#include "exercise_image.h"
 
 
 // Define an array to hold angle check results for each image
