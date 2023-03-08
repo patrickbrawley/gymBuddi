@@ -1,5 +1,5 @@
-#ifndef IMAGEPROCESSOR_H_
-#define IMAGEPROCESSOR_H_
+#ifndef POSECOMPARISON_H_
+#define POSECOMPARISON_H_
 
 /* for general */
 #include <string>
