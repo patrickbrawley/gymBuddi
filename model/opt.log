@@ -1,0 +1,1 @@
+C:/Users/lorca/ELL/external/LLVMNativeWindowsLibs.x64.8.0.0-a/llvm-8.0/bin/opt.exe model\model.bc -o model\model.opt.bc -O3 -fp-contract=fast

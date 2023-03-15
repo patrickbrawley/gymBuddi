@@ -1,0 +1,1 @@
+C:/Users/lorca/ELL/external/LLVMNativeWindowsLibs.x64.8.0.0-a/llvm-8.0/bin/llc.exe model\model.opt.bc -o model\model.o -O3 -fp-contract=fast -filetype=obj -mtriple=armv7-linux-gnueabihf -mcpu=cortex-a53 -relocation-model=pic
