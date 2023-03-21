@@ -98,5 +98,5 @@ void Gui::setTaskText(std::string letter){
 
 void Gui::SetTask(std::string newTask){
     currentTask = newTask;
-    SetTargetImage("A");
+    SetTargetImage("Plank");
 }
