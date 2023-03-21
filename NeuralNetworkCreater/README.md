@@ -38,7 +38,7 @@ The train.py script creates a mobileNetv2 model which is trained using Keras. Ty
 
 TERMINAL WINDOW:<br>
 python3 train.py <br>
-<br><br>
+<br>
 
 Dont worry if this takes a while, that is expected! Perfect time to go get some gains and pump some iron!
 <h2>Exporting the Model </h2>
