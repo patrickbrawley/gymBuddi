@@ -1,26 +1,54 @@
-LOGO HERE!!!!
-
-gymBuddi is created for use on a Raspberry Pi to allow users to take the gymBuddi with them wherever they choose to work out. Let gymBuddi be your new personal work out partner!
-
-What is gymBuddi?
-gymBuddi is free open source software that helps gym goes achieve perfect form in excersie workouts, while counting the number of exercise reps correctly performed. 
-
-The AI software utalises Posenet and openCV to detect your body positions. gymBuddi ensures your body is in the correct position to perform the workout. This helps users to complete the exercises, while keeping track of the number of repetitions, and lowers the chances of injury due to poor form. In future we hope to add a large variety of exercises to allow the users to utalise gymBuddi in a varied workout.
-
-Currently the Code is still being developed however we hope to add a DEMO Video here when the code is up and running.
 
 
-Social Media
+<!-- LOGO AND SLOGAN -->
+</br>
+<div align="center">
 
-Keep up to date with gymBuddi and the team on all our social media platforms!
+   <img src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/gymbuddi_landscape_logo.png alt="logo" width="400" div align=center />
+   </br>
+   </br>
+<b> Never work out alone again with GymBuddi by your side. Elevate your fitness with our AI-enhaced repetition counting and form correction software. </b>
+   </br>
+   </br>
+</div>
+<div align="left">
+    <h2 align="left">Tell me more! </h2>
+    <p>GymBuddi is an open source software that uses machine learning and computer vision to count exercise repetitions and provide real-time form correction tips. It runs on Raspberry Pi and uses a camera to track movements. By utilizing machine learning technologies such as OpenCV and PoseNet, GymBuddi tracks key points on the user's body to ensure they are in the correct position whilst performing the exercise.</p>
+    </br>
+    
+</div>
+<div align="left">
+   <h2 align="left">Demo 🎥 </h2>
+   <p>GymBuddi is still in the developement stages and as of yet we have no demonstration video to show you. In the meantime, check out this great video on how to preform these exercices with the correct form avoiding common mistakes.
+   </br> 
+   </div> 
 
-Hyperlinks to socials as pictures
+   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/ProperForm.png)](https://www.youtube.com/watch?v=dBJry3tcX0Q)
+   </br>
 
-Synapse is biult using the following 
+<div align="left">
+   <h2>Social Media</h2>
+   <p>Keep up to date with all the latest updates on our social media channels!</p>
+   <p align="center">
+<a href="https://twitter.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/twitter.png alt="twitter" height="150" width="100" /></a>·
+<a href="https://instagram.com/gymbuddipi/" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
+    </br>
+    </br>
+</div>
+    <h2> About us </h2>
+    </br>
+    <p> GymBuddi is being developed by a team of MEng Electronic and Electrical Engineering students from the University of Glasgow, please feel free to get in contact with any of us if you have any questions. </p>
+    <ul>
+   <li> 2389769m@student.gla.ac.uk - Lorcan McDermott </li>
+   <li> 2388886b@student.gla.ac.uk - Patrick Brawley  </li>
+   <li> 2390462k@student.gla.ac.uk - Reece Kelly </li>
+   <li> 2355831r@student.gla.ac.uk - Andrew Rollo </li>
+    </ul>
+    </br>
+    <h2> License </h2>
+    <p> This project is licensed under the terms of the MIT license. </p>
+    
 
-C++
-OpenCV
-Raspberry Pi
-Posenet
+
 
 
