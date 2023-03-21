@@ -61,7 +61,7 @@ void Gui::SetTargetImage(std::string letter) {
  * Method handler for when the next task button is pressed, sets new task and resets the progress bar.
  */
 void Gui::buttonPressed(){
-    std::string new_task = SignapseUtils::makeTask();
+    std::string new_task = gymBuddi::makeTask();
     SetTargetImage(new_task);
     currentTask = new_task;
     progressBar.ResetProgress();
