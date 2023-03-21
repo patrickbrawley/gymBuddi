@@ -8,7 +8,7 @@
 #include "gymBuddi.h"
 
 #define MODEL_PATH "models/pose-mobilenetv2.pb"
-#define NR_TASKS 26
+#define NR_TASKS 5
 namespace {
 
     class gymBuddi {
