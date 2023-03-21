@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report ,accuracy_score
 
 
-dir_ = Path('data/poses_train')
+dir_ = Path('data/poses_train') # Hi guys this is the line that will need to be altered if you are creating your own model. In our code we have 'poses' however this will need to be replace with whatever your folder was called after unzipping the data!
 file_paths = list(dir_.glob(r'**/*.jpg'))
 
 
