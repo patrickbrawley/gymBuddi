@@ -5,7 +5,7 @@ This directory is for training and evaluating MobileNetv2 models! Please feel to
 To use our code to make your own personal models, you're going to need to install some packages in able to run this code. These packages are required to be downloaded onto your device in order to run the python code. 
 <br>
 <br>
-All the following packages can be installed with pip3.The required prerequisites for this code are: <br> <br>
+All the following packages can be installed with <code>pip3</code>.The required prerequisites for this code are: <br> <br>
 <ul>
 <li>TensorFlow
 <li>pandas
@@ -25,8 +25,8 @@ https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification
 Download this dataset (or any other dataset you wish) and add it to directory within the project file called data. cd into this directory using the terminal on your device, then unzip the downloaded file and rename the file to data.zip.
 <br> <br>
 TERMINAL WINDOW: <br>
-mv archive.zip data.zip <br>
-unzip data.zip
+<code>mv archive.zip data.zip</code> <br>
+<code>unzip data.zip</code>
 <br><br>
 If you're making your own dataset this is where things will change, so BEWARE!!!
 <br><br>
@@ -36,8 +36,9 @@ If you're making your own dataset this is where things will change, so BEWARE!!!
 The train.py script creates a mobileNetv2 model which is trained using Keras. Type the following command in your terminal to train your model!
 <br><br>
 
+
 TERMINAL WINDOW:<br>
-python3 train.py <br>
+<code>python3 train.py </code>
 <br>
 
 Dont worry if this takes a while, that is expected! Perfect time to go get some gains and pump some iron!
@@ -45,12 +46,12 @@ Dont worry if this takes a while, that is expected! Perfect time to go get some 
 To allow OpenCV to be compatible with the model must be converted into a format that OpenCV can read. To export the file into the protobuf format, run the export.py script using the following command on you're terminal.
 <br><br>
 TERMINAL WINDOW: <br>
-python3 export.py <br>
+<code>python3 export.py </code><br>
 
 <h2> Testing </h2>
 To check your model is sucessful a great idea is to test it using a live camera stream. To carry out the test ensure your camera is connected and simply input this command into your terminal!
 <br><br>
 TERMINAL WINDOW: <br>
-python3 test-opencv-feed.py <br> <br> 
+<code>python3 test-opencv-feed.py </code><br> <br> 
 
 gymBuddi hope this tutorial is easy to follow! Dont hessetate to contact us with any questions or issues experienced! Please share any models you've created with the gymBuddi team!
