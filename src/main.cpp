@@ -18,7 +18,7 @@ using namespace cv;
 using namespace std;
 
 int main(int argc, char* argv[]){
-    SignapseUtils::welcomeMessage();
+    gymBuddi::welcomeMessage();
     
     //init Qt and Ui
     QApplication app(argc, argv);
