@@ -3,7 +3,7 @@
 
 #define MOBNET_V2_INPUT_DIM_X 224
 #define MOBNET_V2_INPUT_DIM_Y 224
-#define MOBNET_V2_PATH "models/asl-mobilenetv2.pb"
+#define MOBNET_V2_PATH "models/pose-mobilenetv2.pb"
 
 /*!
  * A simple struct to store default configurations for CNNProcessor settings.
