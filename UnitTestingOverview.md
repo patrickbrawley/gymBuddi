@@ -8,7 +8,7 @@ For programming-based projects, Test-Driven Development (TDD) is essential for p
 
 ## Strategy 
 
-TDD may be enforced via unit testing measures which follow the Test Anything Protocol (TAP). This procedure is an industry approach for developing unit tests and for producing reports. The 
+TDD may be enforced via unit testing measures which follow the Test Anything Protocol (TAP). This procedure is the industry approach for developing unit tests & producing bug reports and will be . The 
 
 
  
