@@ -4,10 +4,14 @@ This overview includes the method of unit testing implemented into our project.
 
 ## Purpose
 
-Unit tests were applied to increase the robustness of our programming project and to assess how our code performed when further design alterations were added.
+For programming-based projects, Test-Driven Development (TDD) is essential for progressing through the design/development phase. Unit testing is a design tool which enforced TDD and was applied to increase the robustness of our programming project, and to assess how our code performed when further design alterations were added.
 
 ## Strategy 
 
+TDD may be enforced via unit testing measures which follow the Test Anything Protocol (TAP). This procedure is an industry approach for developing unit tests and for producing reports. The 
+
+
+ 
 
 
 
