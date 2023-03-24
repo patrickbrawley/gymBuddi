@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gymbuddi3/Examples/opencv-camera-callback/camera.cpp" "/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/camera.cpp.o"
-  "/home/gymbuddi3/Examples/opencv-camera-callback/main.cpp" "/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/main.cpp.o"
-  "/home/gymbuddi3/Examples/opencv-camera-callback/webcam-viewer_autogen/mocs_compilation.cpp" "/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/webcam-viewer_autogen/mocs_compilation.cpp.o"
-  "/home/gymbuddi3/Examples/opencv-camera-callback/window.cpp" "/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/window.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/camera.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/camera.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/main.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/main.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/webcam-viewer_autogen/mocs_compilation.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/webcam-viewer_autogen/mocs_compilation.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

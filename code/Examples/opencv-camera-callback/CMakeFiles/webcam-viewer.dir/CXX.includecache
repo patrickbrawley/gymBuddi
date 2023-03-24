@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gymbuddi3/Examples/opencv-camera-callback/camera.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/camera.h
 opencv2/core.hpp
 -
 opencv2/videoio.hpp
@@ -18,11 +18,11 @@ stdlib.h
 thread
 -
 
-/home/gymbuddi3/Examples/opencv-camera-callback/window.cpp
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.cpp
 window.h
-/home/gymbuddi3/Examples/opencv-camera-callback/window.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.h
 
-/home/gymbuddi3/Examples/opencv-camera-callback/window.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.h
 qwt/qwt_thermo.h
 -
 QBoxLayout
@@ -32,7 +32,7 @@ QPushButton
 QLabel
 -
 camera.h
-/home/gymbuddi3/Examples/opencv-camera-callback/camera.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/camera.h
 
 /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h

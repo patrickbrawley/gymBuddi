@@ -384,3 +384,9 @@
  mdp:/usr/local/include/opencv4/opencv2/videoio.hpp
 /home/gymbuddi3/Examples/opencv-camera-callback/camera.cpp
 /home/gymbuddi3/Examples/opencv-camera-callback/camera.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/camera.cpp
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/camera.h
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.h
+ mmc:Q_OBJECT
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/main.cpp
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/window.cpp

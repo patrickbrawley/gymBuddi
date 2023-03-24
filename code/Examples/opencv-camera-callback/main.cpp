@@ -17,3 +17,6 @@ int main(int argc, char *argv[])
 	// execute the application
 	return app.exec();
 }
+
+
+//this  is shit atm
