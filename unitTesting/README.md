@@ -1,8 +1,9 @@
 # Unit Testing Summary
 
-This document contains a summary of all the debug reports across the GymBuddi project.  
+This document contains a summary of all the debugging reports across the GymBuddi project.  
 
 ## GUI
+
 ### GUI - Design 1
 
 
