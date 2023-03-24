@@ -1,0 +1,45 @@
+#Class for the GUI
+
+	#Class start/stop button
+		#Create start button on right side of the screen
+		#inputs = user interaction
+		#output = button state
+		
+	#Class Camera
+		#inputs = button state
+		#output = camera data
+		
+	#Class display window
+		#inputs = camera data, button state, 
+
+
+# Inital screen shows start button
+
+	
+	
+#Press start button to display camera on screen
+
+	#turn on the camera
+	
+		#send ready signal to display window
+		
+		#wait for return signal yes
+		
+		#send data from camera
+	
+	#Create display window
+	
+		#Create window display on left side of the screen
+		
+		#Input from camera ready signal
+		
+		#Reply ready signal yes once window is created
+		
+		#Recieve data from Camera
+	
+#Press stop button to turn off camera display on screen
+
+	#turn off the camera
+	
+	#close display window
+	
