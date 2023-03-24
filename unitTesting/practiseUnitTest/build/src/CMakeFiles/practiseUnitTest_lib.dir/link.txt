@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpractiseUnitTest_lib.a CMakeFiles/practiseUnitTest_lib.dir/Formula.cpp.o CMakeFiles/practiseUnitTest_lib.dir/main.cpp.o
-/usr/bin/ranlib libpractiseUnitTest_lib.a
