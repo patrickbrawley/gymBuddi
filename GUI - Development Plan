@@ -1,1 +1,0 @@
-The graphical user interface (GUI) was designed using Qt Creator 9.0.1. In order to achieve the final desktop GUI, firstly, sequence diagrams where established which laid out the operation for the GymBuddi and how the subsequent objects communicate with each other.   
