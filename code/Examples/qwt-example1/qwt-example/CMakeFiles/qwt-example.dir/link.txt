@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/qwt-example.dir/qwt-example_autogen/mocs_compilation.cpp.o CMakeFiles/qwt-example.dir/window.cpp.o CMakeFiles/qwt-example.dir/main.cpp.o -o qwt-example  /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.2 -lqwt-qt5 /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.2 /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.2 
