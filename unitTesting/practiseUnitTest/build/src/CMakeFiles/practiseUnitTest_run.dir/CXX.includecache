@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gymbuddi3/unitTesting/practiseUnitTest/src/Formula.cpp
+Formula.h
+/home/gymbuddi3/unitTesting/practiseUnitTest/src/Formula.h
+
+/home/gymbuddi3/unitTesting/practiseUnitTest/src/Formula.h
+
+/home/gymbuddi3/unitTesting/practiseUnitTest/src/main.cpp
+iostream
+-
+Formula.h
+/home/gymbuddi3/unitTesting/practiseUnitTest/src/Formula.h
+
