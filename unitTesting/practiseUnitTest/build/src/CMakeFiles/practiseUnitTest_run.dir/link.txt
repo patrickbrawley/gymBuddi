@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/practiseUnitTest_run.dir/Formula.cpp.o CMakeFiles/practiseUnitTest_run.dir/main.cpp.o -o practiseUnitTest_run 
