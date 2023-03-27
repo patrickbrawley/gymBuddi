@@ -34,6 +34,6 @@ Scene CNNProcessor::ProcessScene(Scene scene){
     double confidence;
     minMaxLoc(prob.reshape(1, 1), 0, &confidence, 0, &classIdPoint);
     int classId = classIdPoint.x;
-    scene.result = SignapseUtils::getLetterFromDigit(classId);
+    scene.result = gymBuddi::getLetterFromDigit(classId);
     return scene;
 }
