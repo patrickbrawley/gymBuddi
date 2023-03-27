@@ -1,13 +1,22 @@
-#include "mainwindow.h"
+#include "window.h"
+
 #include <QApplication>
 
-int main(int argc, char **argv)
+// Main program
+int main(int argc, char *argv[])
 {
-    QApplication app (argc, argv);
+	QApplication app(argc, argv);
 
-    MainWindow home_page;
-    home_page.show();
+	// create the window
+	Window window;
+	window.show();
 
-    return.app.exec();
+	// call the window.timerEvent function every 40 ms
+	window.startTimer(40);
 
+	// execute the application
+	return app.exec();
 }
+
+
+//this  is shit atm

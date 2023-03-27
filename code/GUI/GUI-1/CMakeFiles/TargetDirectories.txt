@@ -1,0 +1,8 @@
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/install/strip.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/install/local.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/install.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/list_install_components.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/rebuild_cache.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/edit_cache.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/webcam-viewer.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-1/CMakeFiles/webcam-viewer_autogen.dir
