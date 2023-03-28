@@ -3,6 +3,8 @@ project(GUI-1)
 
 set(CMAKE_CXX_STANDARD 11)
 
+enable_testing()
+
 include_directories(src)
 
 add_subdirectory(src)
