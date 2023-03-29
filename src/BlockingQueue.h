@@ -8,6 +8,10 @@
 
 template <typename T>
 
+// BlockingQueue Class
+//The Push, Pop, IsEmpty, and Size functions provide a thread-safe way to add and remove elements from the queue and check its status.
+
+
 class BlockingQueue {
 public:
     void Push(T toPush);
