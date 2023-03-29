@@ -5,9 +5,9 @@
 #define MOBNET_V2_INPUT_DIM_Y 224
 #define MOBNET_V2_PATH "models/pose-mobilenetv2.pb"
 
-/*!
- * A simple struct to store default configurations for CNNProcessor settings.
- */
+
+//default configurations for CNNProcessor settings.
+
 struct CNNProcessorSettings {
     CNNProcessorSettings(std::string network = "mobnetv2"){
         if(network == "mobnetv2") {
@@ -16,13 +16,9 @@ struct CNNProcessorSettings {
             InputDim_y = MOBNET_V2_INPUT_DIM_Y;
         }
         else{
-            ; //space for more default network setups
-        }
-    }
-    /*!
-     * Copy constructor
-     * @param cpy
-     */
+            ; 
+            
+            
     CNNProcessorSettings(const CNNProcessorSettings& cpy){
         ModelPath = cpy.ModelPath;
         InputDim_x = cpy.InputDim_x;
