@@ -1,29 +1,36 @@
+//This code provides the implementation for a Blocking Queue, 
+//which is a data structure that allows one thread to push elements into the queue 
+//while another thread waits until there is an element available to pop. 
+//The implementation is based on a deque and uses a mutex and a condition variable to ensure thread safety.
+
 #include "BlockingQueue.h"
 
+// Pop an element from the blocking queue
 template <typename T>
 T BlockingQueue<T>::Pop() {
-    std::unique_lock<std::mutex> lock(mutex);
-    condition.wait(lock, [=]{ return !internalQueue.empty(); });
-    T ret = internalQueue.back();
-    internalQueue.pop_back();
-    return ret;
+    std::unique_lock<std::mutex> lock(mutex); // Lock the mutex
+    condition.wait(lock, [=]{ return !internalQueue.empty(); }); // Wait until the queue is not empty
+    T ret = internalQueue.back();  // Get the last element of the queue
+    internalQueue.pop_back(); // Remove the last element from the queue
+    return ret; // Return the popped element
 }
-
+// Check if the blocking queue is empty
 template <typename T>
 bool BlockingQueue<T>::IsEmpty(){
-    return internalQueue.empty();
+    return internalQueue.empty(); // Check if the internal queue is empty
 }
 
+// Get the size of the blocking queue
 template <typename T>
 int BlockingQueue<T>::Size(){
-    return internalQueue.size();
+    return internalQueue.size();  // Return the size of the internal queue
 }
 
-
+// Push an element into the blocking queue
 template <typename T>
 void BlockingQueue<T>::Push(T toPush) {
     {
-        internalQueue.push_front(toPush);
+        internalQueue.push_front(toPush); // Add the element to the front of the queue
     }
-    condition.notify_all();
+    condition.notify_all(); // Notify all waiting threads that an element has been added to the queue
 }
