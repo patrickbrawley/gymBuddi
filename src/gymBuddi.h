@@ -21,7 +21,7 @@ namespace {
             printf(" gymBuddi");
         }
       
-        static std::string getLetterFromDigit(int digit) {
+        static std::string getPoseFromDigit(int digit) {
             return results[digit % results.size()];
         }
        
