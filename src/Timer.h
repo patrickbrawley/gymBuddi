@@ -7,7 +7,7 @@
 
 class Timer{
 public:
-    ProgressBar();
+    Timer();
     int GetProgress(std::string s, std::string task);
     void ResetProgress();
 protected:
