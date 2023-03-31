@@ -16,11 +16,11 @@
 
 
 //CNNProcessor Class
-//
+//used to process the scenes using a neural network TF model within the scenes pipleline.
 class CNNProcessor : public SchedulableLink{
 public:
     Scene ProcessScene(Scene s); //Takes a Scene as an input and returns a new Scene object that has been processed by the CNN model.
-    CNNProcessor(CNNProcessorSettings s); //
+    CNNProcessor(CNNProcessorSettings s); 
     cv::Mat MakeBlob(Scene scene); //Takes a Scene object as input and returns a cv::Mat object that is used as input to the CNN model.
     
 protected:
