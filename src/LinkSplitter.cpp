@@ -1,6 +1,7 @@
 #include "LinkSplitter.h"
 
-// Implementation of the NextScene method
+
+//passes a scene onto the next link in the pipeline by calling the NextScene function of the sceneCallback member variable. It also passes the Scene object to another callback function (secondarySceneCallback).
 
 void LinkSplitter::NextScene(Scene s) {
      // Call the NextScene of the primary callback
