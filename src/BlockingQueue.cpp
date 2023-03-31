@@ -8,7 +8,7 @@
 // Pop an element from the blocking queue
 template <typename T>
 T BlockingQueue<T>::Pop() {
-    std::unique_lock<std::mutex> lock(mutex); // Lock the mutex
+    std::unique_lock<std::mutex> lock(mutex); // Lock the mutex so other threads cannot access the data. Data blocked untill mutex is released.
     condition.wait(lock, [=]{ return !internalQueue.empty(); }); // Wait until the queue is not empty
     T ret = internalQueue.back();  // Get the last element of the queue
     internalQueue.pop_back(); // Remove the last element from the queue
