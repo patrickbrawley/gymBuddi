@@ -8,8 +8,8 @@
 class Timer{
 public:
     Timer();
-    int GetProgress(std::string s, std::string task);
-    void ResetProgress();
+    int GetGainz(std::string s, std::string task);
+    void NewGainz();
 protected:
     int count = 0;
 };
