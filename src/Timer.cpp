@@ -11,7 +11,7 @@ int Timer::GetProgress(std::string result, std::string task){
     return count;
 }
 
-void ProgressBar::ResetProgress(){
+void Timer::ResetProgress(){
     count = 0;
 }
 
