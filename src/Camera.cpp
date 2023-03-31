@@ -5,7 +5,7 @@ Camera::Camera() : cameraSettings() {
     isOn=true;
 }
 
-//// Constructor with camera settings , sets isOn to be true
+// Constructor with camera settings , sets isOn to be true
 Camera::Camera(CameraSettings settings) : cameraSettings(settings){
     isOn = true;
 }
@@ -14,7 +14,7 @@ Camera::Camera(CameraSettings settings) : cameraSettings(settings){
 void Camera::setOn(bool state){
     isOn = state;
 }
-// Thread loop function, continuously adds camera frames to be processed while the camera is on
+// Thread loop function, continuously adds camera frames to the pipeline to be processed while the camera is on
 void Camera::threadLoop(){
     while(isOn){
         postFrame();
@@ -53,7 +53,7 @@ void Camera::Stop(){
 
 }
 
-
+//if camera is on return true, if off return false
 bool Camera::getOn() {
     return isOn;
 }
