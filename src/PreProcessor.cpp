@@ -3,11 +3,7 @@
 
 #include "PreProcessor.h"
 //This code defines the implementation of the PreProcessor class, which is responsible for preprocessing input scenes in a computer vision pipeline.
-
 //This method handles processing the given scene and calls back to the next pipeline element. 
-//It first computes the bounding box coordinates for the region of interest based on the input image size and the relative bounding box settings provided. 
-//It then switches the pixel format of the image to BGR using OpenCV functions, and adds a green rectangle to the image at the location of the region of interest. 
-//Finally, it calls the next pipeline element with the processed scene
 
 
 void PreProcessor::NextScene(Scene scene){
