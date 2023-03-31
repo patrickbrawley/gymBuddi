@@ -30,7 +30,7 @@ private:
     void postFrame();
      // Thread loop function that continuously posts camera frames while the camera is on
     void threadLoop();
-     // Video capture object used to read frames from the camera
+     // openCV used to read frames from the camera
     cv::VideoCapture videoCapture;
     // Camera settings object used to configure the camera
     CameraSettings cameraSettings;
