@@ -12,21 +12,21 @@ T BlockingQueue<T>::Pop() {
     condition.wait(lock, [=]{ return !internalQueue.empty(); }); // Wait until the queue is not empty
     T ret = internalQueue.back();  // Get the last element of the queue
     internalQueue.pop_back(); // Remove the last element from the queue
-    return ret; // Return the popped element
+    return ret; // Return the removed element from the queue
 }
 // Check if the blocking queue is empty
 template <typename T>
 bool BlockingQueue<T>::IsEmpty(){
-    return internalQueue.empty(); // Check if the internal queue is empty
+    return internalQueue.empty(); // Check if the internal queue is empty and returns a boolean value. True if empty, false if not
 }
 
-// Get the size of the blocking queue
+// Get the size of the queue
 template <typename T>
 int BlockingQueue<T>::Size(){
     return internalQueue.size();  // Return the size of the internal queue
 }
 
-// Push an element into the blocking queue
+// adds an element into the queue
 template <typename T>
 void BlockingQueue<T>::Push(T toPush) {
     {
