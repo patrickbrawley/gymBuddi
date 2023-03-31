@@ -5,6 +5,8 @@
 
 #include "Scene.h"
 
+//class that times how long the user can perform the exercise with good form
+
 class Timer{
 public:
     Timer();
