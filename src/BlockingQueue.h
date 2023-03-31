@@ -5,11 +5,11 @@
 #include <condition_variable>
 #include "Scene.h"
 
-
+//T is a template parameter that can represent any type of data, eg integers or scenes.
 template <typename T>
 
 // BlockingQueue Class
-//The Push, Pop, IsEmpty, and Size functions provide a thread-safe way to add and remove elements from the queue and check its status.
+//The Push, Pop, IsEmpty, and Size functions provide a thread-safe way that allows elements to be added to one end of the queue and removed from the other end and check the queues status. 
 
 
 class BlockingQueue {
