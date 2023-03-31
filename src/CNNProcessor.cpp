@@ -1,6 +1,6 @@
 #include "CNNProcessor.h"
 
-// Load the trained TF model 
+// Load the trained TF model, model path is where the model is saved on the device. 
 void CNNProcessor::LoadModel(std::string modelPath){
     net = cv::dnn::readNetFromTensorflow(modelPath);
 }
