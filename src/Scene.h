@@ -4,7 +4,7 @@
 
 #include <opencv2/core.hpp>
 
-
+//data structure to hold integer coordinates
 struct Point
 {
     int x, y;
@@ -13,7 +13,7 @@ struct Point
     Point(int x, int y) : x(x), y(y) {}
 };
 
-
+//data structure to hold information on a rectangle making the region of interest.
 struct BoundingBox{
     Point UpperLeft; // The upper-left corner of the bounding box
     Point LowerRight;  // The lower-right corner of the bounding box
