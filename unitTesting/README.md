@@ -19,5 +19,3 @@ The unit tests under the Operation subheading were associated with the GymBuddi'
 ### Scene
 
 
-TDD may be enforced via unit testing measures which follow the Test Anything Protocol (TAP). This procedure is the industry approach for developing unit tests & producing bug reports and will be . The 
-
