@@ -22,7 +22,7 @@ public:
 // internal variables for the window class
 private:
 	static constexpr int plotDataSize = 100;
-	static constexpr double gain = 75;
+	static constexpr double gain = 7.5;
 
 	QPushButton  *button1, *button2;
 	QwtThermo    *thermo;
@@ -40,6 +40,8 @@ private:
 	long count = 0;
 
 	void reset();
+	void close();
+	void start();
 };
 
 #endif // WINDOW_H

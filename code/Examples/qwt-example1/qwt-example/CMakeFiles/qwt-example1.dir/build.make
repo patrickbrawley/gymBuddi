@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gymbuddi3/Examples/qwt-example1/qwt-example
+CMAKE_SOURCE_DIR = /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gymbuddi3/Examples/qwt-example1/qwt-example
+CMAKE_BINARY_DIR = /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example
 
 # Include any dependencies generated for this target.
 include CMakeFiles/qwt-example1.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/qwt-example1.dir/flags.make
 
 CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o: CMakeFiles/qwt-example1.dir/flags.make
 CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o: qwt-example1_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o -c /home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o -c /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp
 
 CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp > CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp > CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp -o CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp -o CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/qwt-example1.dir/window.cpp.o: CMakeFiles/qwt-example1.dir/flags.make
 CMakeFiles/qwt-example1.dir/window.cpp.o: window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qwt-example1.dir/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/window.cpp.o -c /home/gymbuddi3/Examples/qwt-example1/qwt-example/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qwt-example1.dir/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/window.cpp.o -c /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.cpp
 
 CMakeFiles/qwt-example1.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qwt-example1.dir/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/Examples/qwt-example1/qwt-example/window.cpp > CMakeFiles/qwt-example1.dir/window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.cpp > CMakeFiles/qwt-example1.dir/window.cpp.i
 
 CMakeFiles/qwt-example1.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qwt-example1.dir/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/Examples/qwt-example1/qwt-example/window.cpp -o CMakeFiles/qwt-example1.dir/window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.cpp -o CMakeFiles/qwt-example1.dir/window.cpp.s
 
 CMakeFiles/qwt-example1.dir/main.cpp.o: CMakeFiles/qwt-example1.dir/flags.make
 CMakeFiles/qwt-example1.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qwt-example1.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/main.cpp.o -c /home/gymbuddi3/Examples/qwt-example1/qwt-example/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qwt-example1.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qwt-example1.dir/main.cpp.o -c /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/main.cpp
 
 CMakeFiles/qwt-example1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qwt-example1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/Examples/qwt-example1/qwt-example/main.cpp > CMakeFiles/qwt-example1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/main.cpp > CMakeFiles/qwt-example1.dir/main.cpp.i
 
 CMakeFiles/qwt-example1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qwt-example1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/Examples/qwt-example1/qwt-example/main.cpp -o CMakeFiles/qwt-example1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/main.cpp -o CMakeFiles/qwt-example1.dir/main.cpp.s
 
 # Object files for target qwt-example1
 qwt__example1_OBJECTS = \
@@ -132,7 +132,7 @@ qwt-example1: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.2
 qwt-example1: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.2
 qwt-example1: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.2
 qwt-example1: CMakeFiles/qwt-example1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qwt-example1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qwt-example1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qwt-example1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +145,6 @@ CMakeFiles/qwt-example1.dir/clean:
 .PHONY : CMakeFiles/qwt-example1.dir/clean
 
 CMakeFiles/qwt-example1.dir/depend:
-	cd /home/gymbuddi3/Examples/qwt-example1/qwt-example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qwt-example1.dir/depend
 

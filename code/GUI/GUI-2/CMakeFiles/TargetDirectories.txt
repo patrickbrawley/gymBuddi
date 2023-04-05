@@ -1,0 +1,8 @@
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/install/strip.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/install/local.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/install.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/list_install_components.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/rebuild_cache.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/edit_cache.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/test.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-2/CMakeFiles/test_autogen.dir

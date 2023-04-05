@@ -14,14 +14,13 @@ find_package(Threads REQUIRED)
 find_package(OpenCV REQUIRED)
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-add_executable(GUI-2
-  window.cpp
+add_executable(test
+  mainwindow.cpp
   main.cpp
-  camera.cpp
 )
 
-target_link_libraries(GUI-2 Qt5::Widgets)
-target_link_libraries(GUI-2 qwt-qt5)
-target_link_libraries(GUI-2 ${OpenCV_LIBS} Threads::Threads)
+target_link_libraries(test Qt5::Widgets)
+target_link_libraries(test qwt-qt5)
+target_link_libraries(test ${OpenCV_LIBS} Threads::Threads)
 
-install(TARGETS GUI-2)
+install(TARGETS test)

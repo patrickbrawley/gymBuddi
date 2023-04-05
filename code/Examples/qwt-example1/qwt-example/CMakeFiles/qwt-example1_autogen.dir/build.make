@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gymbuddi3/Examples/qwt-example1/qwt-example
+CMAKE_SOURCE_DIR = /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gymbuddi3/Examples/qwt-example1/qwt-example
+CMAKE_BINARY_DIR = /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example
 
 # Utility rule file for qwt-example1_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/gymbuddi3/Examples/qwt-example1/qwt-example
 include CMakeFiles/qwt-example1_autogen.dir/progress.make
 
 CMakeFiles/qwt-example1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qwt-example1"
-	/usr/bin/cmake -E cmake_autogen /home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qwt-example1"
+	/usr/bin/cmake -E cmake_autogen /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir/AutogenInfo.json ""
 
 qwt-example1_autogen: CMakeFiles/qwt-example1_autogen
 qwt-example1_autogen: CMakeFiles/qwt-example1_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/qwt-example1_autogen.dir/clean:
 .PHONY : CMakeFiles/qwt-example1_autogen.dir/clean
 
 CMakeFiles/qwt-example1_autogen.dir/depend:
-	cd /home/gymbuddi3/Examples/qwt-example1/qwt-example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example /home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qwt-example1_autogen.dir/depend
 

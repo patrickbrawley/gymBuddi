@@ -38,6 +38,12 @@ public:
 
 	MyCallback myCallback;
 
+	private:
+
+		void reset();
+
+		void stopCamera();
+
 };
 
 #endif // WINDOW_H

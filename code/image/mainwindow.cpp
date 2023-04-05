@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
 void MainWindow::createUI()
 {
     QPixmap pix("/home/gymbuddi3/gymBuddi/images/gymbuddi_landscape_logo.PNG");
-    pix = pix.scaledToWidth(300);
+    pix = pix.scaledToWidth(1000);
 
     lab_icon = new QLabel("test",this);
     lab_icon->setPixmap(pix);

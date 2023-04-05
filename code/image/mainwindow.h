@@ -1,31 +1,40 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
-#include <QPixmap>
+#include <qwt/qwt thermo.h>
+#include <qwt/qwt_plot.h>
+#include <qwt/qwt_plot_curve.h>
+
+//#include <QPixmap>
 #include <QBoxLayout>
-#include <QLayout>
-#include <QLabel>
+//#include <QLayout>
+//#include <QLabel>
+#include <QPushButton>
 
-#include <iostream>
 
-using namespace std;
+//#include <iostream>
 
-class MainWindow : public QMainWindow
+//using namespace std;
+
+class Window : public QWidget
 {
     Q_OBJECT
 
-    public:
-        explicit MainWindow(QWidget *parent = nullptr);
-        ~MainWindow();
+public:
+    Window();
 
-    private:
+    void timerEvent( QTimerEvent *);
+       
+private:
 
-    QPixmap *logo_image;
-    QLabel *lab_icon;
+    //QPixmap *logo_image;
+    //QLabel *lab_icon;
+    QPushButton *but_start, *but_stop, *but_reset, *small_logo, *timer, *reps, *camera, *wide_logo;
 
-    void createUI();
-    //int count = 0;
+    QVBoxLayout *vLayout1, *vLayout2, *vLayout3;
+    QHBoxLayout *hLayout;
+
+    long count = 0;
 
 };
 
