@@ -1,7 +1,10 @@
-#find and include opencv
-set(OpenCV_DIR "../opencv_build")
+# Find OpenCV package
 find_package(OpenCV REQUIRED)
-include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+# Add include directories
+include_directories(
+    ${OpenCV_INCLUDE_DIRS}
+)
 
 #find Qt5Widgets
 find_package(Qt5Widgets REQUIRED)
