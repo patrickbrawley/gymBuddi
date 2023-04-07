@@ -23,18 +23,34 @@ class Window : public QWidget
 public:
     Window();
 
-    void timerEvent( QTimerEvent *);
+    //void timerEvent( QTimerEvent *);
+    void updateImage(const cv::Mat &mat);
        
 private:
 
     //QPixmap *logo_image;
-    //QLabel *lab_icon;
+    QLabel *image;
+    Camera camera;
     QPushButton *but_start, *but_stop, *but_reset, *small_logo, *timer, *reps, *camera, *wide_logo;
 
     QVBoxLayout *vLayout1, *vLayout2, *vLayout3;
     QHBoxLayout *hLayout;
 
-    long count = 0;
+    struct MyCallback : Camera::SceneCallback {
+        Window* window =nullptr;
+        virtual void nextScene(const cv::Mat &mat) {
+            if (nullptr != window) {
+                window -> updateImage(mat);
+            
+            }
+        }
+    };
+    
+    MyCallback mycallback;
+    
+    
+
+    //long count = 0;
 
 };
 

@@ -13,24 +13,32 @@ void MainWindow::createUI()
 {
     //buttons for design
     but_start = new QPushButton("Start");
+    but_start->setStyleSheet("background-color: green");
     but_stop = new QPushButton("Stop");
+    but_stop->setStyleSheet("background-color: red");
     but_reset = new QPushButton("Reset");
+    but_reset->setStyleSheet("background-color: blue");
     small_logo = new QPushButton("Logo");
     timer = new QPushButton("Timer");
     reps = new QPushButton("Reps");
-    camera = new QPushButton("Camera");
+    //camera = new QPushButton("Camera");
 
     
        //top logo
     QPixmap pix("/home/gymbuddi3/gymBuddi/images/gymbuddi_logo.png");
-    pix = pix.scaledToWidth(300);
+    pix = pix.scaledToWidth(100);
     top_logo = new QLabel("test",this);
     top_logo->setPixmap(pix); 
     
-    
+    // camera callback
+    myCallback.window = this;
+    camera.registerSceneCallback(&myCallback);
+
+
+
     //bottom logo
     QPixmap pix1("/home/gymbuddi3/gymBuddi/images/gymbuddi_landscape_logo.PNG");
-    pix1 = pix1.scaledToWidth(1000);
+    pix1 = pix1.scaledToWidth(500);
     bot_logo = new QLabel("test",this);
     bot_logo->setPixmap(pix1);
 

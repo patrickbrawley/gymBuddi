@@ -1,20 +1,34 @@
-#include "mytimer.h"
-#include <QDebug>
+#include <QApplication>
+#include <QLabel>
+#include <QTimer>
 
-MyTimer::MyTimer()
+int main(int argc, char *argv[])
 {
-    // create a timer
-    timer = new QTimer(this);
+    QApplication app(argc, argv);
 
-    // setup signal and slot
-    connect(timer, SIGNAL(timeout()),
-          this, SLOT(MyTimerSlot()));
+    // Create a label to display the countdown
+    QLabel label("Timer");
+    label.show();
 
-    // msec
-    timer->start(1000);
+    // Create a QTimer object
+    QTimer timer;
+    timer.setInterval(1000); // Set the timer interval to 1 second
+
+    // Connect the timeout signal of the timer to a lambda function
+    QObject::connect(&timer, &QTimer::timeout, [&label, &timer]() {
+        static int count = 120; // Initialize a static counter variable
+
+        if (count >= 0) {
+            label.setText(QString::number(count--)); // Update the label with the countdown value
+        } else {
+            label.setText("Timer finished"); // Update the label when the countdown is finished
+            timer.stop(); // Stop the timer
+        }
+    });
+
+    // Start the timer
+    timer.start();
+
+    return app.exec();
 }
 
-void MyTimer::MyTimerSlot()
-{
-    qDebug() << "Timer...";
-}
