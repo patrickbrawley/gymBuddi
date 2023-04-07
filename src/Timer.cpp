@@ -3,7 +3,7 @@
 #include "iostream"
 
 
-int Timer::Gainz(std::string result, std::string task){
+int Timer::GetGainz(std::string result, std::string task){
     // if user is in the correct pose with good form the counter will count up. 
     if(task == result){
         count++;
