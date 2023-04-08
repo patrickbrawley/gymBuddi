@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/window.cpp
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.cpp
 window.h
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/window.h
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.h
 cmath
 -
 
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/window.h
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.h
 qwt/qwt_thermo.h
 -
 qwt/qwt_plot.h

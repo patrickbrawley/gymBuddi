@@ -7,7 +7,7 @@ Window::Window()
 {
 	// set up the thermometer
 	thermo = new QwtThermo; 
-	thermo->setFillBrush( QBrush(Qt::darkYellow) );
+	thermo->setFillBrush( QBrush(Qt::red) );
 	thermo->setScale(0, 100);
 	thermo->show();
 
@@ -28,13 +28,13 @@ Window::Window()
 	plot->replot();
 	plot->show();
 
-	button1 = new QPushButton("Reset");
+	button1 = new QPushButton("start");
 	// see https://doc.qt.io/qt-5/signalsandslots-syntaxes.html
-	connect(button1,&QPushButton::clicked,this,&Window::reset);
+	connect(button1,&QPushButton::clicked,this,&Window::start);
 
-	button2 = new QPushButton("Something else");
+	button2 = new QPushButton("Stop");
 	// see https://doc.qt.io/qt-5/signalsandslots-syntaxes.html
-	connect(button2,&QPushButton::clicked,this,&Window::reset);
+	connect(button2,&QPushButton::clicked,this,&Window::close);
 
 	// set up the layout - button above thermometer
 	vLayout = new QVBoxLayout();
@@ -62,7 +62,7 @@ void Window::reset() {
 
 void Window::timerEvent( QTimerEvent * )
 {
-	double inVal = gain * sin( M_PI * count/5.0 );
+	double inVal = gain * sin( M_PI * count/50 );
 	++count;
 
 	// add the new input to the plot
@@ -73,4 +73,20 @@ void Window::timerEvent( QTimerEvent * )
 
 	// set the thermometer value
 	thermo->setValue( fabs(inVal) );
+}
+
+
+void Window::close()
+{
+	//hLayout->removeWidget(plot);
+	delete plot;
+	//thermo = nullptr;
+}
+
+void Window::start()
+{
+	plot->show();
+	//hLayout->addLayout(vLayout);
+	//hLayout->addWidget(plot);
+
 }

@@ -1,8 +1,8 @@
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/install/strip.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/install/local.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/install.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/list_install_components.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/rebuild_cache.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/edit_cache.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/install/strip.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/install/local.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/install.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/list_install_components.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/rebuild_cache.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/edit_cache.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1_autogen.dir

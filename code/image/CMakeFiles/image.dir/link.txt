@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/image.dir/image_autogen/mocs_compilation.cpp.o CMakeFiles/image.dir/mainwindow.cpp.o CMakeFiles/image.dir/main.cpp.o -o image  /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.2 -lqwt-qt5 -lThreads::Threads /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.2 /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.2 

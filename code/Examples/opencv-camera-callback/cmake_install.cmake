@@ -1,4 +1,4 @@
-# Install script for directory: /home/gymbuddi3/Examples/opencv-camera-callback
+# Install script for directory: /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/webcam-viewer"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gymbuddi3/Examples/opencv-camera-callback/webcam-viewer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/webcam-viewer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/webcam-viewer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/webcam-viewer")
     file(RPATH_CHANGE
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gymbuddi3/Examples/opencv-camera-callback/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

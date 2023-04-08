@@ -1,5 +1,5 @@
-/home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/EWIEGA46WW/moc_window.cpp: /home/gymbuddi3/Examples/qwt-example1/qwt-example/window.h \
-  /home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/moc_predefs.h \
+/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/EWIEGA46WW/moc_window.cpp: /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.h \
+  /home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/moc_predefs.h \
   /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \

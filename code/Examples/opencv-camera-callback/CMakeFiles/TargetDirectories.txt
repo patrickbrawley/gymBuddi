@@ -1,8 +1,8 @@
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/install/strip.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/install/local.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/install.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/list_install_components.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/rebuild_cache.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/edit_cache.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir
-/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/install/strip.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/install/local.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/install.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/list_install_components.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/rebuild_cache.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/edit_cache.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer.dir
+/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir

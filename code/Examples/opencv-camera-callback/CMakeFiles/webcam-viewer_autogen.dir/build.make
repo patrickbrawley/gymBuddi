@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gymbuddi3/Examples/opencv-camera-callback
+CMAKE_SOURCE_DIR = /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gymbuddi3/Examples/opencv-camera-callback
+CMAKE_BINARY_DIR = /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback
 
 # Utility rule file for webcam-viewer_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/gymbuddi3/Examples/opencv-camera-callback
 include CMakeFiles/webcam-viewer_autogen.dir/progress.make
 
 CMakeFiles/webcam-viewer_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target webcam-viewer"
-	/usr/bin/cmake -E cmake_autogen /home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target webcam-viewer"
+	/usr/bin/cmake -E cmake_autogen /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir/AutogenInfo.json ""
 
 webcam-viewer_autogen: CMakeFiles/webcam-viewer_autogen
 webcam-viewer_autogen: CMakeFiles/webcam-viewer_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/webcam-viewer_autogen.dir/clean:
 .PHONY : CMakeFiles/webcam-viewer_autogen.dir/clean
 
 CMakeFiles/webcam-viewer_autogen.dir/depend:
-	cd /home/gymbuddi3/Examples/opencv-camera-callback && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/Examples/opencv-camera-callback /home/gymbuddi3/Examples/opencv-camera-callback /home/gymbuddi3/Examples/opencv-camera-callback /home/gymbuddi3/Examples/opencv-camera-callback /home/gymbuddi3/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback /home/gymbuddi3/gymBuddi/code/Examples/opencv-camera-callback/CMakeFiles/webcam-viewer_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webcam-viewer_autogen.dir/depend
 

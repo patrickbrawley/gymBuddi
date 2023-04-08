@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gymbuddi3/Examples/qwt-example1/qwt-example/main.cpp" "/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/main.cpp.o"
-  "/home/gymbuddi3/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp" "/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o"
-  "/home/gymbuddi3/Examples/qwt-example1/qwt-example/window.cpp" "/home/gymbuddi3/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/window.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/main.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/main.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/qwt-example1_autogen/mocs_compilation.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/qwt-example1_autogen/mocs_compilation.cpp.o"
+  "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/window.cpp" "/home/gymbuddi3/gymBuddi/code/Examples/qwt-example1/qwt-example/CMakeFiles/qwt-example1.dir/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

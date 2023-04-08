@@ -19,7 +19,7 @@ Window::Window()
 	hLayout->addWidget(image);
 
 	setLayout(hLayout);
-	camera.start(1);
+	camera.start();
 }
 
 Window::~Window()
