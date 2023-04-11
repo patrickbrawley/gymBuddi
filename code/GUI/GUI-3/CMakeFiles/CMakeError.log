@@ -1,0 +1,240 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c5a8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5a8e.dir/build.make CMakeFiles/cmTC_c5a8e.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5a8e.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_c5a8e.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c5a8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a8e.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_c5a8e.dir/src.cxx.o -o cmTC_c5a8e 
+/usr/bin/ld: CMakeFiles/cmTC_c5a8e.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c5a8e.dir/build.make:106: cmTC_c5a8e] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c5a8e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b9f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b9f3.dir/build.make CMakeFiles/cmTC_6b9f3.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b9f3.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6b9f3.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_6b9f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b9f3.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_6b9f3.dir/CheckFunctionExists.cxx.o -o cmTC_6b9f3  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6b9f3.dir/build.make:106: cmTC_6b9f3] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6b9f3/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8688f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8688f.dir/build.make CMakeFiles/cmTC_8688f.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8688f.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_8688f.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8688f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8688f.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_8688f.dir/src.cxx.o -o cmTC_8688f 
+/usr/bin/ld: CMakeFiles/cmTC_8688f.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8688f.dir/build.make:106: cmTC_8688f] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8688f/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_95685/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95685.dir/build.make CMakeFiles/cmTC_95685.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95685.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_95685.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_95685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95685.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_95685.dir/CheckFunctionExists.cxx.o -o cmTC_95685  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_95685.dir/build.make:106: cmTC_95685] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_95685/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cdfec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdfec.dir/build.make CMakeFiles/cmTC_cdfec.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdfec.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_cdfec.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cdfec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdfec.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_cdfec.dir/src.cxx.o -o cmTC_cdfec 
+/usr/bin/ld: CMakeFiles/cmTC_cdfec.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cdfec.dir/build.make:106: cmTC_cdfec] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_cdfec/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5d7ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d7ea.dir/build.make CMakeFiles/cmTC_5d7ea.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d7ea.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5d7ea.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_5d7ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7ea.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5d7ea.dir/CheckFunctionExists.cxx.o -o cmTC_5d7ea  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5d7ea.dir/build.make:106: cmTC_5d7ea] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5d7ea/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9b32a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b32a.dir/build.make CMakeFiles/cmTC_9b32a.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b32a.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_9b32a.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b32a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b32a.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_9b32a.dir/src.cxx.o -o cmTC_9b32a 
+/usr/bin/ld: CMakeFiles/cmTC_9b32a.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9b32a.dir/build.make:106: cmTC_9b32a] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_9b32a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_562eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_562eb.dir/build.make CMakeFiles/cmTC_562eb.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_562eb.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_562eb.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_562eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_562eb.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_562eb.dir/CheckFunctionExists.cxx.o -o cmTC_562eb  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_562eb.dir/build.make:106: cmTC_562eb] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_562eb/fast] Error 2
+
+
+

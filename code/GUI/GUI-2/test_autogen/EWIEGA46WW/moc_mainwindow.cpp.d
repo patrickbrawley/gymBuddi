@@ -52,11 +52,13 @@
   /usr/include/aarch64-linux-gnu/c++/10/bits/os_defines.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h \
@@ -104,6 +106,7 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvector.h \

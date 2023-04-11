@@ -1,0 +1,120 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ca4f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca4f0.dir/build.make CMakeFiles/cmTC_ca4f0.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca4f0.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_ca4f0.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca4f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca4f0.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_ca4f0.dir/src.cxx.o -o cmTC_ca4f0 
+/usr/bin/ld: CMakeFiles/cmTC_ca4f0.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ca4f0.dir/build.make:106: cmTC_ca4f0] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ca4f0/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bf75d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf75d.dir/build.make CMakeFiles/cmTC_bf75d.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf75d.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bf75d.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_bf75d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf75d.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_bf75d.dir/CheckFunctionExists.cxx.o -o cmTC_bf75d  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bf75d.dir/build.make:106: cmTC_bf75d] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bf75d/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_693bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_693bc.dir/build.make CMakeFiles/cmTC_693bc.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_693bc.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_693bc.dir/src.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_693bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693bc.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_693bc.dir/src.cxx.o -o cmTC_693bc 
+/usr/bin/ld: CMakeFiles/cmTC_693bc.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x44): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_693bc.dir/build.make:106: cmTC_693bc] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_693bc/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f326d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f326d.dir/build.make CMakeFiles/cmTC_f326d.dir/build
+gmake[1]: Entering directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f326d.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_f326d.dir/CheckFunctionExists.cxx.o -c /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_f326d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f326d.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_f326d.dir/CheckFunctionExists.cxx.o -o cmTC_f326d  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f326d.dir/build.make:106: cmTC_f326d] Error 1
+gmake[1]: Leaving directory '/home/gymbuddi3/gymBuddi/code/GUI/timer-2/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f326d/fast] Error 2
+
+
+

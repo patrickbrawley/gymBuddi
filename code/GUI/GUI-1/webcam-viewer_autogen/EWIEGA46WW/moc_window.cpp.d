@@ -71,9 +71,7 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qdebug.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -84,9 +82,7 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qiterator.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qlogging.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qnamespace.h \
@@ -102,7 +98,6 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsharedpointer.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
@@ -116,9 +111,7 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qversiontagging.h \
@@ -329,10 +322,6 @@
   /usr/include/features.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
-  /usr/include/qwt/qwt_abstract_scale.h \
-  /usr/include/qwt/qwt_global.h \
-  /usr/include/qwt/qwt_interval.h \
-  /usr/include/qwt/qwt_thermo.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \

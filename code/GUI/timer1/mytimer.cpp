@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         static int count = 0; // Initialize a static counter variable
 
         if (count <= 120) {
-            label.setText(QString::number(count++)); // Update the label with the countdown value
+            label.setText(QString("%1 Seconds").arg(count++)); // Update the label with the countdown value
         } else {
             label.setText("Timer finished"); // Update the label when the countdown is finished
             timer.stop(); // Stop the timer
