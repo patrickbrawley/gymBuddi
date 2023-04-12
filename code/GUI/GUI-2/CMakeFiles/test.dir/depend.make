@@ -3,6 +3,7 @@
 
 CMakeFiles/test.dir/main.cpp.o: main.cpp
 CMakeFiles/test.dir/main.cpp.o: mainwindow.h
+CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -10,6 +11,7 @@ CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomi
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -71,6 +73,7 @@ CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qsysin
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
 CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -132,6 +135,7 @@ CMakeFiles/test.dir/main.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwi
 
 CMakeFiles/test.dir/mainwindow.cpp.o: mainwindow.cpp
 CMakeFiles/test.dir/mainwindow.cpp.o: mainwindow.h
+CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -139,6 +143,7 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -198,6 +203,7 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
 CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -255,6 +261,7 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtWidge
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: mainwindow.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: test_autogen/EWIEGA46WW/moc_mainwindow.cpp
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: test_autogen/mocs_compilation.cpp
+CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -262,6 +269,7 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-li
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -321,6 +329,7 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-li
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
 CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h

@@ -4,6 +4,7 @@
 CMakeFiles/test.dir/main.cpp.o
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/main.cpp
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/mainwindow.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -11,6 +12,7 @@ CMakeFiles/test.dir/main.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -72,6 +74,7 @@ CMakeFiles/test.dir/main.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -133,6 +136,7 @@ CMakeFiles/test.dir/main.cpp.o
 CMakeFiles/test.dir/mainwindow.cpp.o
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/mainwindow.cpp
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/mainwindow.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -140,6 +144,7 @@ CMakeFiles/test.dir/mainwindow.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -199,6 +204,7 @@ CMakeFiles/test.dir/mainwindow.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -256,6 +262,7 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/mainwindow.h
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/test_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /home/gymbuddi3/gymBuddi/code/GUI/GUI-2/test_autogen/mocs_compilation.cpp
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
@@ -263,6 +270,7 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -322,6 +330,7 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/aarch64-linux-gnu/qt5/QtCore/qurlquery.h

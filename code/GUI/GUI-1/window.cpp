@@ -5,31 +5,11 @@ Window::Window()
 	myCallback.window = this;
 	camera.registerSceneCallback(&myCallback);
 	
-	// set up the thermometer
-	thermo = new QwtThermo; 
-	//thermo->setFillBrush( QBrush(Qt::red) );
-	//thermo->setScale(0, 255);
-	//thermo->show();
-
+	
 	image = new QLabel;
 
-	butstart = new QPushButton("Start");
-	butstart->setStyleSheet("background-color: green");
-	// see https://doc.qt.io/qt-5/signalsandslots-syntaxes.html
-	//connect(butstart,&QPushButton::clicked,this,&Window::camera.start);
 
-	butstop = new QPushButton("Stop");
-	butstop->setStyleSheet("background-color: red");
-	// see https://doc.qt.io/qt-5/signalsandslots-syntaxes.html
-	connect(butstop,&QPushButton::clicked,this,&(Window::stopCamera);
-
-	// plot to the left of button and thermometer
-
-	vLayout = new QVBoxLayout();
-	vLayout->addWidget(butstart);
-	vLayout->addWidget(butstop);
 	hLayout = new QHBoxLayout();
-	hLayout->addLayout(vLayout);
 	hLayout->addWidget(image);
 
 	setLayout(hLayout);
@@ -48,10 +28,10 @@ void Window::updateImage(const cv::Mat &mat) {
 	const int h = frame.height();
 	const int w = frame.width();
 	const QColor c = frame.pixelColor(w/2, h/2);
-	thermo->setValue(c.lightness());
+	
 }
 
-Window::stopCamera()
+void Window::stopCamera()
 {
 	camera.stop();
 }

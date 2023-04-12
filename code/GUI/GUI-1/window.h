@@ -1,7 +1,7 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 
-#include <qwt/qwt_thermo.h>
+//#include <qwt/qwt_thermo.h>
 
 #include <QBoxLayout>
 #include <QPushButton>
@@ -20,9 +20,6 @@ public:
 	~Window();
 	void updateImage(const cv::Mat &mat);
 
-	QPushButton  *butstart, *butstop;
-	QwtThermo    *thermo;
-	QVBoxLayout  *vLayout;  // vertical layout
 	QHBoxLayout  *hLayout;  // horizontal layout
 	Camera       camera;
 	QLabel       *image;

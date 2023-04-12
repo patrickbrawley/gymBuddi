@@ -55,11 +55,13 @@
  mdp:/usr/include/aarch64-linux-gnu/c++/10/bits/os_defines.h
  mdp:/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h
  mdp:/usr/include/aarch64-linux-gnu/gnu/stubs.h
+ mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
@@ -107,6 +109,7 @@
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qsysinfo.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
+ mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  mdp:/usr/include/aarch64-linux-gnu/qt5/QtCore/qvector.h

@@ -19,9 +19,9 @@ void MainWindow::createUI()
     but_reset = new QPushButton("Reset");
     but_reset->setStyleSheet("background-color: blue");
     small_logo = new QPushButton("Logo");
-    timer = new QPushButton("Timer");
+    //timer = new QPushButton("Timer");
     reps = new QPushButton("Reps");
-    //camera = new QPushButton("Camera");
+    camera = new QPushButton("Camera");
 
     
        //top logo
@@ -31,8 +31,33 @@ void MainWindow::createUI()
     top_logo->setPixmap(pix); 
     
     // camera callback
-    myCallback.window = this;
-    camera.registerSceneCallback(&myCallback);
+    //myCallback.window = this;
+    //camera.registerSceneCallback(&myCallback);
+
+
+    // Create a label to display the countdown
+    QLabel label("Timer");
+    label.show();
+
+    //create timer
+    QTimer timer;
+    timer.setInterval(1000); // Set the timer interval to 1 second
+    
+    // Connect the timeout signal of the timer to a lambda function
+    QObject::connect(&timer, &QTimer::timeout, [&tlabel, &timer]() {
+        static int count = 0; // Initialize a static counter variable
+
+        if (count <= 120) {
+            tlabel.setText(QString("%1 Seconds").arg(count++)); // Update the label with the countdown value
+        } else {
+            tlabel.setText("Timer finished"); // Update the label when the countdown is finished
+            timer.stop(); // Stop the timer
+        }
+    });
+
+    // Start the timer
+    timer.start();
+
 
 
 
@@ -51,7 +76,7 @@ void MainWindow::createUI()
     // Vertical layout 2
     vLayout2 = new QVBoxLayout();
     vLayout2 -> addWidget(top_logo);
-    vLayout2 -> addWidget(timer);
+    vLayout2 -> add(timer);
     vLayout2 -> addWidget(reps);
 
     // Vertical layout 3

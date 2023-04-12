@@ -25,8 +25,14 @@ QLabel
 -
 QPushButton
 -
+QTimer
+-
 iostream
 -
+
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer
+qtimer.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
 
 /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -68,6 +74,12 @@ QtCore/qatomic_bootstrap.h
 QtCore/qatomic_cxx11.h
 -
 QtCore/qatomic_msvc.h
+-
+
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h
+QtCore/qglobal.h
+-
+QtCore/qnamespace.h
 -
 
 /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
@@ -634,6 +646,16 @@ QtCore/qlocale.h
 QtCore/qscopedpointer.h
 -
 stdio.h
+-
+
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h
+QtCore/qglobal.h
+-
+QtCore/qbasictimer.h
+-
+QtCore/qobject.h
+-
+chrono
 -
 
 /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h

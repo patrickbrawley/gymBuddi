@@ -7,6 +7,8 @@
 #include <QLayout>
 #include <QLabel>
 #include <QPushButton>
+#include <QTimer>
+
 
 
 #include <iostream>
@@ -26,11 +28,13 @@ class MainWindow : public QMainWindow
     private:
 
         QPixmap *logo_image, *logo_image1;
-        QLabel *top_logo, *bot_logo;
-        QPushButton *but_start, *but_stop, *but_reset, *small_logo, *timer, *reps, *camera;
+        QLabel *top_logo, *bot_logo, *tlabel;
+        QPushButton *but_start, *but_stop, *but_reset, *small_logo, *reps, *camera;
 
-    QVBoxLayout *vLayout1, *vLayout2, *vLayout3, *vLayout4;
-    QHBoxLayout *hLayout1;
+        QVBoxLayout *vLayout1, *vLayout2, *vLayout3, *vLayout4;
+        QHBoxLayout *hLayout1;
+
+        QTimer timer;
 
     void createUI();
     //long count = 0;
