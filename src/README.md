@@ -1,5 +1,19 @@
-Hello fellow coder!
+<!DOCTYPE html>
+<html>
 
-This file, 'src', contains all the c++ code for the gymBuddi video processing. Currently gymBuddi are working hard behind the scenes to create our CNN model to be used with this code. For a more detailed description and breakdown of how all this code works please refer to our WIKI page under the section- How It Works.
+<head>
+	<title>gymBuddi Video Processing - C++ Source Code</title>
+</head>
 
-Currently the gymBuddi created GUI is not with compatible with the code however please have check out our GUI code in the 'code/GUI-3' folder path! an installation guide for viewing the code on your personal rasperry pi is available on the WIKI!
+<body>
+	<h1>gymBuddi Video Processing - C++ Source Code</h1>
+
+	<h2>Description</h2>
+	<p>This folder contains all the C++ code for the gymBuddi video processing. Our team is working hard to create a CNN model that will be used with this code for predicting the users positions. If you're interested in learning more about how this code works, please refer to our WIKI page under the section - How It Works.</p>
+
+	<h2>Compatibility with gymBuddi GUI</h2>
+	<p>Please note that the gymBuddi-created GUI is currently not compatible with this code. If you want to check out our GUI, please refer to the 'code/GUI-3' folder path. An installation guide for viewing the GUI on your personal Raspberry Pi is available on the WIKI.</p>
+
+</body>
+
+</html>
