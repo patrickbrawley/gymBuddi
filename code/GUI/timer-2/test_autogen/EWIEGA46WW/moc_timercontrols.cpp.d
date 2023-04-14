@@ -1,5 +1,6 @@
-/home/gymbuddi3/gymBuddi/code/GUI/timer-2/test_autogen/EWIEGA46WW/moc_timercontrols.cpp: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/timercontrols.h \
+/home/gymbuddi3/gymBuddi/code/GUI/timer-2/test_autogen/EWIEGA46WW/moc_TimerControls.cpp: /home/gymbuddi3/gymBuddi/code/GUI/timer-2/TimerControls.h \
   /home/gymbuddi3/gymBuddi/code/GUI/timer-2/test_autogen/moc_predefs.h \
+  /home/gymbuddi3/gymBuddi/code/GUI/timer-2/CountUpTimer.h \
   /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
@@ -52,11 +53,14 @@
   /usr/include/aarch64-linux-gnu/c++/10/bits/os_defines.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h \
@@ -104,6 +108,7 @@
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/aarch64-linux-gnu/qt5/QtCore/qvector.h \
@@ -130,9 +135,15 @@
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QLayout \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \

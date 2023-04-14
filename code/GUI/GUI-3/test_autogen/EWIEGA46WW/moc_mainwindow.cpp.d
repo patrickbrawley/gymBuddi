@@ -1,8 +1,6 @@
-/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/test_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/mainwindow.h \
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/test_autogen/EWIEGA46WW/moc_MainWindow.cpp: /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/MainWindow.h \
   /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/test_autogen/moc_predefs.h \
-  /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/camera.h \
-  /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/countuptimer.h \
-  /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/window.h \
+  /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CountUpTimer.h \
   /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
@@ -15,10 +13,8 @@
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/aarch64-linux-gnu/bits/sched.h \
   /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
   /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/aarch64-linux-gnu/bits/time.h \
   /usr/include/aarch64-linux-gnu/bits/time64.h \
@@ -27,16 +23,12 @@
   /usr/include/aarch64-linux-gnu/bits/types.h \
   /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
@@ -149,7 +141,6 @@
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qvalidator.h \
   /usr/include/aarch64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QBoxLayout \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QComboBox \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
   /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QLabel \
@@ -214,7 +205,6 @@
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
-  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/list.tcc \
   /usr/include/c++/10/bits/locale_classes.h \
@@ -240,8 +230,6 @@
   /usr/include/c++/10/bits/shared_ptr.h \
   /usr/include/c++/10/bits/shared_ptr_atomic.h \
   /usr/include/c++/10/bits/shared_ptr_base.h \
-  /usr/include/c++/10/bits/specfun.h \
-  /usr/include/c++/10/bits/sstream.tcc \
   /usr/include/c++/10/bits/std_abs.h \
   /usr/include/c++/10/bits/std_function.h \
   /usr/include/c++/10/bits/stl_algo.h \
@@ -274,18 +262,12 @@
   /usr/include/c++/10/bits/uses_allocator.h \
   /usr/include/c++/10/bits/vector.tcc \
   /usr/include/c++/10/cctype \
-  /usr/include/c++/10/cfloat \
-  /usr/include/c++/10/climits \
   /usr/include/c++/10/clocale \
-  /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
-  /usr/include/c++/10/complex \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
-  /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
-  /usr/include/c++/10/cstring \
   /usr/include/c++/10/cwchar \
   /usr/include/c++/10/cwctype \
   /usr/include/c++/10/debug/assertions.h \
@@ -303,14 +285,11 @@
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
-  /usr/include/c++/10/iostream \
-  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/list \
   /usr/include/c++/10/map \
   /usr/include/c++/10/memory \
-  /usr/include/c++/10/mutex \
   /usr/include/c++/10/new \
   /usr/include/c++/10/numeric \
   /usr/include/c++/10/optional \
@@ -320,25 +299,11 @@
   /usr/include/c++/10/pstl/glue_memory_defs.h \
   /usr/include/c++/10/pstl/glue_numeric_defs.h \
   /usr/include/c++/10/ranges \
-  /usr/include/c++/10/sstream \
   /usr/include/c++/10/stdexcept \
   /usr/include/c++/10/stdlib.h \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
-  /usr/include/c++/10/thread \
-  /usr/include/c++/10/tr1/bessel_function.tcc \
-  /usr/include/c++/10/tr1/beta_function.tcc \
-  /usr/include/c++/10/tr1/ell_integral.tcc \
-  /usr/include/c++/10/tr1/exp_integral.tcc \
-  /usr/include/c++/10/tr1/gamma.tcc \
-  /usr/include/c++/10/tr1/hypergeometric.tcc \
-  /usr/include/c++/10/tr1/legendre_function.tcc \
-  /usr/include/c++/10/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/10/tr1/poly_hermite.tcc \
-  /usr/include/c++/10/tr1/poly_laguerre.tcc \
-  /usr/include/c++/10/tr1/riemann_zeta.tcc \
-  /usr/include/c++/10/tr1/special_function_util.h \
   /usr/include/c++/10/tuple \
   /usr/include/c++/10/type_traits \
   /usr/include/c++/10/typeinfo \
@@ -351,45 +316,13 @@
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-linux-gnu/10/include/arm_bf16.h \
-  /usr/lib/gcc/aarch64-linux-gnu/10/include/arm_fp16.h \
-  /usr/lib/gcc/aarch64-linux-gnu/10/include/arm_neon.h \
-  /usr/lib/gcc/aarch64-linux-gnu/10/include/float.h \
   /usr/lib/gcc/aarch64-linux-gnu/10/include/limits.h \
   /usr/lib/gcc/aarch64-linux-gnu/10/include/stdarg.h \
   /usr/lib/gcc/aarch64-linux-gnu/10/include/stddef.h \
   /usr/lib/gcc/aarch64-linux-gnu/10/include/stdint.h \
-  /usr/lib/gcc/aarch64-linux-gnu/10/include/syslimits.h \
-  /usr/local/include/opencv4/opencv2/core.hpp \
-  /usr/local/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
-  /usr/local/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/include/opencv4/opencv2/core/types.hpp \
-  /usr/local/include/opencv4/opencv2/core/utility.hpp \
-  /usr/local/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
-  /usr/local/include/opencv4/opencv2/videoio.hpp
+  /usr/lib/gcc/aarch64-linux-gnu/10/include/syslimits.h
