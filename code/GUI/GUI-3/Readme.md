@@ -1,6 +1,6 @@
 This folder shows the the code to build the current GUI interface
 
-Build using.
+Build using./
 cmake . 
 make
 
