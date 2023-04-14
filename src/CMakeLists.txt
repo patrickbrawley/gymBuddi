@@ -15,7 +15,7 @@ set(THREADS_PREFER_PTHREAD_FLAG TRUE)
 find_package(Threads REQUIRED)
 
 #compile and link main code executable ADD GUI here when code ready
-add_executable(gymBuddi main.cpp Camera.cpp CNNProcessor.cpp PipelineLink.cpp LinkSplitter.cpp SchedulableLink.cpp PreProcessor.cpp BlockingQueue.cpp Timer.cpp )
+add_executable(GymBuddi main.cpp Camera.cpp CNNProcessor.cpp PipelineLink.cpp LinkSplitter.cpp SchedulableLink.cpp PreProcessor.cpp BlockingQueue.cpp CountUpTimer.cpp )
 target_link_libraries(gymBuddi ${OpenCV_LIBS} Qt5::Widgets Threads::Threads)
 
 #build objects for testing as static libs
