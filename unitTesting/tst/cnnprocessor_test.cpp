@@ -21,7 +21,7 @@ protected:
     */
 
     CNNProcessorTest() : cnnProcessor(CNNProcessorSettings("model.pb", 224, 224)) { /*< Loads a sample image and creates a sample scene from the image >*/
-        image = cv::imread("test_image.jpg");
+        image = cv::imread("ProperForm.png");
 
         Scene s;
         s.frame = image;
