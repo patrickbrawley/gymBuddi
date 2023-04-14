@@ -86,12 +86,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/test_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/gymBuddi_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test.dir/DependInfo.cmake"
-  "CMakeFiles/test_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/gymBuddi.dir/DependInfo.cmake"
+  "CMakeFiles/gymBuddi_autogen.dir/DependInfo.cmake"
   )

@@ -19,25 +19,25 @@ public:
     ~MainWindow();
 
 private:
+
+    // Declare the pointers to the UI widgets
     QComboBox *combo_box;
-    QPushButton *button1;
-    QPushButton *button2;
-    QPushButton *button3;
-    QLabel *label1;
-    QLabel *label2;
-    QLabel *label3;
-    QLabel *label4;
-    QLabel *label5;
-    QLabel *label6;
-    QLabel *label7;
+    QPushButton *button1, *button2, *button3;
+    QLabel *label1, *label2, *label3, *label4, *label5, *label6, *label7;
+
+    // Declare the pointer to the countuptimer object
     CountUpTimer *timer; 
 
 private slots:
+
+    // Declare the slots for click button events
     void startTimer();
     void stopTimer();
     void resetTimer();
-    void updateLabel2(int value); // add slot for updating label2
-    void updateOutputLabel(const cv::Mat& image); // add slot for updating output label
+
+    // Declare the slots for updating the labels  
+    void updateLabel2(int value); 
+    void updateOutputLabel(const cv::Mat& image); 
 
 };
 

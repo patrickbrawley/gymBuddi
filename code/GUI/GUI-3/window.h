@@ -1,7 +1,6 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 
-//#include <qwt/qwt_thermo.h>
 
 #include <QBoxLayout>
 #include <QPushButton>
@@ -38,10 +37,10 @@ public:
 
 	signals:
 		void sendImage(const cv::Mat& image);
+
 	private:
-
-		void reset();
-
+	
+		// function to stop the camera
 		void stopCamera();
 
 };

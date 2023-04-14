@@ -14,7 +14,7 @@ find_package(Threads REQUIRED)
 find_package(OpenCV REQUIRED)
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-add_executable(test
+add_executable(gymBuddi
   mainwindow.cpp
   window.cpp
   main.cpp
@@ -22,8 +22,8 @@ add_executable(test
   camera.cpp
 )
 
-target_link_libraries(test Qt5::Widgets)
-target_link_libraries(test qwt-qt5)
-target_link_libraries(test ${OpenCV_LIBS} Threads::Threads)
+target_link_libraries(gymBuddi Qt5::Widgets)
+target_link_libraries(gymBuddi qwt-qt5)
+target_link_libraries(gymBuddi ${OpenCV_LIBS} Threads::Threads)
 
-install(TARGETS test)
+install(TARGETS gymBuddi)
