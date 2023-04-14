@@ -1,39 +1,48 @@
+/**
+    @file PipelineLinkTest.cpp
+    @brief Unit tests for the PipelineLink class
+*/
 #include "PipelineLink.h"
 #include <gtest/gtest.h>
 
-// Define a mock SceneCallback class for testing purposes
+/**
+    @brief Define a mock SceneCallback class for testing purposes
+*/
 class MockSceneCallback : public SceneCallback {
 public:
     MOCK_METHOD(void, NextScene, (Scene));
 };
 
+/**
+    @brief Unit test for PipelineLink::NextScene() method when a callback is registered
+*/
+
 TEST(PipelineLinkTest, TestNextSceneCallsRegisteredCallback) {
-    // Create a PipelineLink object and a mock SceneCallback object
-    PipelineLink link;
+    PipelineLink link; /*< Create a PipelineLink object and a mock SceneCallback object >*/
     MockSceneCallback callback;
-    
-    // Register the mock SceneCallback object with the PipelineLink object
-    link.RegisterCallback(&callback);
-    
-    // Expect the NextScene method of the mock SceneCallback object to be called with a scene object
-    EXPECT_CALL(callback, NextScene(_))
+
+    link.RegisterCallback(&callback); /*< Register the mock SceneCallback object with the PipelineLink object >*/
+
+    EXPECT_CALL(callback, NextScene(_)) /*< Expect the NextScene method of the mock SceneCallback object to be called with a scene object >*/
         .WillOnce(testing::Return());
-    
-    // Call the NextScene method of the PipelineLink object with a scene object
-    link.NextScene(Scene());
+
+    link.NextScene(Scene()); /*< Call the NextScene method of the PipelineLink object with a scene object >*/
+
 }
 
+/**
+    @brief Unit test for PipelineLink::NextScene() method when no callback is registered
+*/
+
 TEST(PipelineLinkTest, TestNextSceneDoesNotCallUnregisteredCallback) {
-    // Create a PipelineLink object and a mock SceneCallback object
-    PipelineLink link;
+    PipelineLink link; /*< Create a PipelineLink object and a mock SceneCallback object >*/
     MockSceneCallback callback;
-    
-    // Do not register the mock SceneCallback object with the PipelineLink object
-    
-    // Expect the NextScene method of the mock SceneCallback object not to be called
-    EXPECT_CALL(callback, NextScene(_))
+
+    /*< NOTE - Do not register the mock SceneCallback object with the PipelineLink object >*/
+
+    EXPECT_CALL(callback, NextScene(_)) /*< Expect the NextScene method of the mock SceneCallback object not to be called >*/
         .Times(0);
-    
-    // Call the NextScene method of the PipelineLink object with a scene object
-    link.NextScene(Scene());
+
+    link.NextScene(Scene()); /*< Call the NextScene method of the PipelineLink object with a scene object >*/
+
 }

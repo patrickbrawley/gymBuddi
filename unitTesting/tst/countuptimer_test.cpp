@@ -1,20 +1,24 @@
+/**
+    @file countuptimer_test.cpp
+    @brief This file contains the unit test for the CountUpTimer class.
+*/
 #include "countuptimer.h"
 #include <gtest/gtest.h>
 
+/**
+    @brief Tests the basic functionality of the CountUpTimer class.
+*/
 TEST(CountUpTimerTest, BasicTest)
 {
     CountUpTimer timer;
 
-    // Define the expected start and end values
-    const int startValue = 0;
+    const int startValue = 0; /*< Define the expected start and end values >*/
     const int endValue = 10;
     const int increment = 1;
 
-    // Define the expected number of updates
-    const int expectedNumUpdates = endValue - startValue + 1;
+    const int expectedNumUpdates = endValue - startValue + 1; /*< Define the expected number of updates >*/
 
-    // Define the update and finished callbacks
-    int numUpdates = 0;
+    int numUpdates = 0; /*> Define the update and finished callbacks >*/
     bool finishedCallbackCalled = false;
     std::function<void(int)> updateCallback = [&](int value)
     {
@@ -22,24 +26,19 @@ TEST(CountUpTimerTest, BasicTest)
         EXPECT_GE(value, startValue);
         EXPECT_LE(value, endValue);
     };
-    std::function<void()> finishedCallback = [&]()
+    std::function<void()> finishedCallback = &
     {
         finishedCallbackCalled = true;
     };
 
-    // Start the timer
-    timer.start(startValue, endValue, increment, updateCallback, finishedCallback);
+    timer.start(startValue, endValue, increment, updateCallback, finishedCallback); /*< Start the timer >*/
 
-    // Wait for the timer to finish
-    while (!finishedCallbackCalled)
+    while (!finishedCallbackCalled) /*< Wait for the timer to finish >*/
     {
         QCoreApplication::processEvents();
     }
 
-    // Check that the expected number of updates were received
-    EXPECT_EQ(numUpdates, expectedNumUpdates);
+    EXPECT_EQ(numUpdates, expectedNumUpdates); /*< Check that the expected number of updates were received >*/
 
-    // Stop the timer
-    timer.stop();
+    timer.stop(); /*< Stop the timer >*/
 }
-

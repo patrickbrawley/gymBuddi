@@ -1,3 +1,7 @@
+/**
+    @file cnnprocessor_test.cpp
+    @brief This includes the unit tests for the CNNProcessor class
+*/
 #include <gtest/gtest.h>
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
@@ -6,39 +10,46 @@
 #include "Scene.h"
 #include "CNNProcessorSettings.h"
 
-// Test fixture for CNNProcessor class
+/**
+    @brief Test fixture for the CNNProcessor class
+*/
 class CNNProcessorTest : public ::testing::Test {
 protected:
-    CNNProcessorTest() : cnnProcessor(CNNProcessorSettings("model.pb", 224, 224)) {
-        // Load sample image
+
+    /**
+       @brief Constructor for CNNProcessorTest
+    */
+
+    CNNProcessorTest() : cnnProcessor(CNNProcessorSettings("model.pb", 224, 224)) { /*< Loads a sample image and creates a sample scene from the image >*/
         image = cv::imread("test_image.jpg");
 
-        // Create a sample scene from the image
         Scene s;
         s.frame = image;
         s.regionOfInterest = BoundingBox(0, 0, image.cols, image.rows);
         scene = s;
     }
 
-    CNNProcessor cnnProcessor;
-    Scene scene;
-    cv::Mat image;
+    CNNProcessor cnnProcessor; /*< CNN processor object for testing >*/
+    Scene scene; /*< Sample scene for testing >*/
+    cv::Mat image; /*< Sample image for testing >*/
 };
 
-// Test that the CNNProcessor can process a scene
+/**
+    @brief Test to confirm if the CNNProcessor can process a scene and it checks that the result is a valid pose.
+*/
 TEST_F(CNNProcessorTest, ProcessScene) {
     Scene processedScene = cnnProcessor.ProcessScene(scene);
 
-    // Check that the result is a valid pose
     EXPECT_GT(processedScene.result, gymBuddi::Pose::UNKNOWN);
     EXPECT_LT(processedScene.result, gymBuddi::Pose::NUM_POSES);
 }
 
-// Test that the CNNProcessor can make a blob from a scene
+/**
+    @brief Test to confirm that the CNNProcessor can make a blob from a scene and it checks that the resulting blob has the correct dimensions.
+*/
 TEST_F(CNNProcessorTest, MakeBlob) {
     cv::Mat blob = cnnProcessor.MakeBlob(scene);
 
-    // Check that the blob has the correct dimensions
     EXPECT_EQ(blob.size().width, cnnProcessor.settings.InputDim_x);
     EXPECT_EQ(blob.size().height, cnnProcessor.settings.InputDim_y);
 }
