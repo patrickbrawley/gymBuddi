@@ -4,5 +4,5 @@
 /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/list_install_components.dir
 /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/rebuild_cache.dir
 /home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/edit_cache.dir
-/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/test.dir
-/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/test_autogen.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/gymBuddi.dir
+/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/CMakeFiles/gymBuddi_autogen.dir

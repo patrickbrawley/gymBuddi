@@ -176,30 +176,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named gymBuddi
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+gymBuddi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gymBuddi
+.PHONY : gymBuddi
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+gymBuddi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/build
+.PHONY : gymBuddi/fast
 
 #=============================================================================
-# Target rules for targets named test_autogen
+# Target rules for targets named gymBuddi_autogen
 
 # Build rule for target.
-test_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_autogen
-.PHONY : test_autogen
+gymBuddi_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gymBuddi_autogen
+.PHONY : gymBuddi_autogen
 
 # fast build rule for target.
-test_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_autogen.dir/build.make CMakeFiles/test_autogen.dir/build
-.PHONY : test_autogen/fast
+gymBuddi_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi_autogen.dir/build.make CMakeFiles/gymBuddi_autogen.dir/build
+.PHONY : gymBuddi_autogen/fast
 
 camera.o: camera.cpp.o
 
@@ -207,7 +207,7 @@ camera.o: camera.cpp.o
 
 # target to build an object file
 camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/camera.cpp.o
 .PHONY : camera.cpp.o
 
 camera.i: camera.cpp.i
@@ -216,7 +216,7 @@ camera.i: camera.cpp.i
 
 # target to preprocess a source file
 camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/camera.cpp.i
 .PHONY : camera.cpp.i
 
 camera.s: camera.cpp.s
@@ -225,7 +225,7 @@ camera.s: camera.cpp.s
 
 # target to generate assembly for a file
 camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/camera.cpp.s
 .PHONY : camera.cpp.s
 
 countuptimer.o: countuptimer.cpp.o
@@ -234,7 +234,7 @@ countuptimer.o: countuptimer.cpp.o
 
 # target to build an object file
 countuptimer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/countuptimer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/countuptimer.cpp.o
 .PHONY : countuptimer.cpp.o
 
 countuptimer.i: countuptimer.cpp.i
@@ -243,7 +243,7 @@ countuptimer.i: countuptimer.cpp.i
 
 # target to preprocess a source file
 countuptimer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/countuptimer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/countuptimer.cpp.i
 .PHONY : countuptimer.cpp.i
 
 countuptimer.s: countuptimer.cpp.s
@@ -252,8 +252,35 @@ countuptimer.s: countuptimer.cpp.s
 
 # target to generate assembly for a file
 countuptimer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/countuptimer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/countuptimer.cpp.s
 .PHONY : countuptimer.cpp.s
+
+gymBuddi_autogen/mocs_compilation.o: gymBuddi_autogen/mocs_compilation.cpp.o
+
+.PHONY : gymBuddi_autogen/mocs_compilation.o
+
+# target to build an object file
+gymBuddi_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/gymBuddi_autogen/mocs_compilation.cpp.o
+.PHONY : gymBuddi_autogen/mocs_compilation.cpp.o
+
+gymBuddi_autogen/mocs_compilation.i: gymBuddi_autogen/mocs_compilation.cpp.i
+
+.PHONY : gymBuddi_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+gymBuddi_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/gymBuddi_autogen/mocs_compilation.cpp.i
+.PHONY : gymBuddi_autogen/mocs_compilation.cpp.i
+
+gymBuddi_autogen/mocs_compilation.s: gymBuddi_autogen/mocs_compilation.cpp.s
+
+.PHONY : gymBuddi_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+gymBuddi_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/gymBuddi_autogen/mocs_compilation.cpp.s
+.PHONY : gymBuddi_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 
@@ -261,7 +288,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -270,7 +297,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -279,7 +306,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -288,7 +315,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -297,7 +324,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -306,35 +333,8 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
-
-test_autogen/mocs_compilation.o: test_autogen/mocs_compilation.cpp.o
-
-.PHONY : test_autogen/mocs_compilation.o
-
-# target to build an object file
-test_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
-.PHONY : test_autogen/mocs_compilation.cpp.o
-
-test_autogen/mocs_compilation.i: test_autogen/mocs_compilation.cpp.i
-
-.PHONY : test_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-test_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.i
-.PHONY : test_autogen/mocs_compilation.cpp.i
-
-test_autogen/mocs_compilation.s: test_autogen/mocs_compilation.cpp.s
-
-.PHONY : test_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-test_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.s
-.PHONY : test_autogen/mocs_compilation.cpp.s
 
 window.o: window.cpp.o
 
@@ -342,7 +342,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -351,7 +351,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -360,7 +360,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gymBuddi.dir/build.make CMakeFiles/gymBuddi.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -375,23 +375,23 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... test_autogen"
-	@echo "... test"
+	@echo "... gymBuddi_autogen"
+	@echo "... gymBuddi"
 	@echo "... camera.o"
 	@echo "... camera.i"
 	@echo "... camera.s"
 	@echo "... countuptimer.o"
 	@echo "... countuptimer.i"
 	@echo "... countuptimer.s"
+	@echo "... gymBuddi_autogen/mocs_compilation.o"
+	@echo "... gymBuddi_autogen/mocs_compilation.i"
+	@echo "... gymBuddi_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
-	@echo "... test_autogen/mocs_compilation.o"
-	@echo "... test_autogen/mocs_compilation.i"
-	@echo "... test_autogen/mocs_compilation.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"
