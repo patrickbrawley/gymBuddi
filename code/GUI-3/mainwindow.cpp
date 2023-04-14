@@ -5,9 +5,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent) {
  
     //Load logo image
-    QPixmap pixmap1("/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/small_logo.png");
-    //QPixmap pixmap2("/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/small_logo.png");
-    QPixmap pixmap3("/home/gymbuddi3/gymBuddi/code/GUI/GUI-3/small_logo.png");    
+    QPixmap pixmap1("/home/gymbuddi3/gymBuddi/code/GUI-3/small_logo.png");
+    QPixmap pixmap3("/home/gymbuddi3/gymBuddi/code/GUI-3/small_logo.png");    
     
     // Create the widget Combo box
     combo_box = new QComboBox();
@@ -76,9 +75,6 @@ MainWindow::MainWindow(QWidget *parent)
     // set the pixmap at the labe image
     pixmap1 = pixmap1.scaled(label1->size(), Qt::KeepAspectRatio);
     label1->setPixmap(pixmap1);
-
-    //pixmap2 =pixmap2.scaled(label4->size(), Qt::KeepAspectRatio);
-    //label4->setPixmap(pixmap2);
 
     pixmap3 =pixmap3.scaled(label5->size(), Qt::KeepAspectRatio);
     label5->setPixmap(pixmap3);
