@@ -2,7 +2,7 @@ set(BINARY ${CMAKE_PROJECT_NAME}_tst)
 set(SOURCES ${TEST_SOURCES})
 
 cmake_minimum_required(VERSION 3.0)
-project(GymBuddi)
+project(gymBuddi)
 
 set(CMAKE_CXX_STANDARD 11)
 
