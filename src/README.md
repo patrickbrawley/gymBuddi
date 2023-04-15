@@ -2,7 +2,9 @@
 
 ## Description
 
-This folder contains all the C++ code for the gymBuddi video processing. Our team is working hard to create a CNN model that will be used with this code for predicting the users positions. If you're interested in learning more about how this code works, please refer to our [WIKI page- How It Works Section](https://github.com/patrickbrawley/gymBuddi/wiki/How-It-Works).
+This folder contains all the C++ code for the gymBuddi video processing. This code follows the SOLID principles of software design to ensure maintainability, extensibility, and flexibility. By adhering to these principles, gymBuddi's software was easier to understand, modify, and test, while reducing the risk of introducing bugs or unintended behavior to the project. In summary, following SOLID principles can improve the overall quality and longevity of the codebase.
+
+Our team is working hard to create a CNN model that will be used with this code for predicting the users positions. If you're interested in learning more about how this code works, please refer to our [WIKI page- How It Works Section](https://github.com/patrickbrawley/gymBuddi/wiki/How-It-Works) The comments in the code help describe each classes responsibility and job. It was important that each class would only have one reason to change, meaning it should have a single responsibility or job. This helps to keep code modular, easier to understand and modify, and reduces the impact of changes in one part of the system on other parts. 
 
 ## Compatibility with gymBuddi GUI
 
