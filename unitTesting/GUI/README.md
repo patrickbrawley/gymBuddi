@@ -1,1 +1,0 @@
-The Graphical User Interface (GUI) unit-tests where implemented to assert robustness and stability through the GUI's operation. The multiple GUI iterations feature their own respective unit-test strategy.  
