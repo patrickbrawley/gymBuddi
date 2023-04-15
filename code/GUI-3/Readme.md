@@ -2,4 +2,4 @@ This folder shows the the code to build the current GUI interface. Currently thi
 
 The GUI allows users to select for a variety of different pre-set exercises and from there it will start a timer when the user is in the correct position. The GUI comes with button to start, stop and reset the timer! 
 
-What are you waiting for? Go try it out!
+**What are you waiting for? Go try it out!**
