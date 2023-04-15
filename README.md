@@ -36,11 +36,25 @@
 <a href="https://instagram.com/gymbuddipi/" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/instagram.png alt="instagram" height="150" width="100" /></a>·
     </br>
     </br>
+    
+   
+## Technologies 
+gymBuddi uses the following technologies to create our product:
+- [C++ Programming Language](https://www.cplusplus.com/)
+- [Debian Linux](https://www.linux.org/)
+- [Raspberry Pi](https://www.raspberrypi.org)
+- [Tensorflow](https://www.tensorflow.org/)
+- [OpenCV](https://opencv.org/)
+- [Qt](https://www.qt.io/)
+- [Google Test](https://github.com/google/googletest)
+
+    
 </div>
     <h2> About us </h2>
     </br>
     <p> GymBuddi is being developed by a team of MEng Electronic and Electrical Engineering students from the University of Glasgow, please feel free to get in contact with any of us if you have any questions. </p>
     <ul>
+   <li> gymbuddi@gmail.com - Lorcan McDermott </li>
    <li> 2389769m@student.gla.ac.uk - Lorcan McDermott </li>
    <li> 2388886b@student.gla.ac.uk - Patrick Brawley  </li>
    <li> 2390462k@student.gla.ac.uk - Reece Kelly </li>
