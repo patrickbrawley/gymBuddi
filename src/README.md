@@ -8,7 +8,7 @@ Our team is working hard to create a CNN model that will be used with this code 
 
 ## Compatibility with gymBuddi GUI
 
-Please note that the gymBuddi-created GUI is currently not compatible with this code. If you want to check out our GUI, please refer to the code [HERE](https://github.com/patrickbrawley/gymBuddi/tree/main/code/GUI/GUI-3). An [Installation Guide](https://github.com/patrickbrawley/gymBuddi/wiki/Installation-Guide) for viewing the GUI on your personal Raspberry Pi is available on the WIKI.
+Please note that the gymBuddi-created GUI is currently not compatible with this code. If you want to check out our GUI, please refer to the code [HERE](https://github.com/patrickbrawley/gymBuddi/tree/main/code/GUI-3). An [Installation Guide](https://github.com/patrickbrawley/gymBuddi/wiki/Installation-Guide) for viewing the GUI on your personal Raspberry Pi is available on the WIKI.
 
 ## Questions?
 
