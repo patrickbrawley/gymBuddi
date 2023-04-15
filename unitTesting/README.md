@@ -13,32 +13,32 @@ Similarly, the installation command for Make is as shown below.
 sudo apt-get install make
 ```
 
-GoogleTest is available as a git repository which was cloned to provide the testing framework. This GoogleTest repository contains it's own CMakeLists.txt file which makes integration within any project extremely simple. This repository should be cloned into the lib folder therefore, it should be selected before performing the git clone command. 
+GoogleTest is available as a git repository which was cloned to provide the testing framework. This GoogleTest repository contains it's own <code>CMakeLists.txt</code> file which makes integration within any project extremely simple. This repository should be cloned into the <code>lib</code> folder therefore, it should be selected before performing the <code>git clone</code> command. 
 
 ```
 cd lib
 git clone https://github.com/google/googletest/
 ```
 
-With all of the required packages installed, the unit tests can be compiled. The layout of the unitTesting folder was implemented for organisational purposes. The initial step is to select the build directory as this is where the compiled CMake files will be stored. This avoids the potential for file cluttering. 
+With all of the required packages installed, the unit tests can be compiled. The layout of the unitTesting folder was implemented for organisational purposes. The initial step is to select the <code>build</code> directory as this is where the compiled CMake files will be stored. This avoids the potential for file cluttering. 
 
 ```
 cd build
 ```
 
-CMake can now be initialised using the command listed below. This command locates all of the outputted compiler files, and the Makefile, into the build folder. 
+CMake can now be initialised using the command listed below. This command locates all of the outputted compiler files, and the <code>Makefile</code>, into the <code>build</code> folder. 
 
 ```
 cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"
 ```
 
-Once CMake has successfully compiled, Make can then be initialised. 
+Once CMake has successfully compiled, Make can then be initialised using the following command. 
 
 ```
 make all
 ```
 
-For the gymBuddi project, there are seven unit tests which are compiled using the single executable file within the tst folder. This can be located using the $find command below. 
+For the gymBuddi project, there are seven unit tests which are compiled using the single executable file within the <code>tst</code> folder. This can be located using the <code>$find</code> command below. 
 
 ```
 $ find . -executable -type f
@@ -68,5 +68,5 @@ The output of this run command should provide an indication on whether the unit 
 
 ## Unit Test Modification
 
-The CMakeLists.txt file within the unitTesting & tst folders have been constructed so that the unit testing process can be performed irrespective of the test files. However, the CMakeLists.txt file located within the src folder may need to be reviewed if modifications are present.  
+The <code>CMakeLists.txt</code> file within the <code>unitTesting</code> & <code>tst</code> folders have been constructed so that the unit testing process can be performed irrespective of the test files. However, the <code>CMakeLists.txt</code> file located within the <code>src</code> folder may need to be reviewed if modifications are present.  
 
