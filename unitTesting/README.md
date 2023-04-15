@@ -60,7 +60,7 @@ Assuming everything compiled as intended, the unit testing code should run using
 The process should then be repeated for the test files which can be assessed using the command listed below. 
 
 ```
-./tst/ExampleProject_tst 
+./tst/gymBuddi_tst 
 ```
 
 The output of this run command should provide an indication on whether the unit tests passed or not.
