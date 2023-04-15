@@ -66,7 +66,6 @@ The process should then be repeated for the test files which can be assessed usi
 The output of this run command should provide an indication on whether the unit tests passed or not.
 
 
-
 ## Unit Test Modification
 
 The CMakeLists.txt file within the unitTesting & tst folders have been constructed so that the unit testing process can be performed irrespective of the test files. However, the CMakeLists.txt file located within the src folder may need to be reviewed if modifications are present.  
