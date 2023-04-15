@@ -1,7 +1,7 @@
 # User Guide
-This document contains the steps required to establish the unit testing for the gymBuddi where modifiable sections will be highlighted. The following guide is designed for installation and operation through Ubuntu operating systems.  
+This document contains the steps required to establish the unit testing for the gymBuddi where modifiable sections will be highlighted. The following guide is designed for installation and operation through Debian Linux operating systems.  
 
-The unit tests require the installation of CMake, Make, and GoogleTest. The Ubuntu installation command for CMake is as shown below. 
+The unit tests require the installation of CMake, Make, and GoogleTest. The installation command for CMake is as shown below. 
 
 ```
 sudo apt-get install cmake
@@ -65,6 +65,7 @@ The process should then be repeated for the test files which can be assessed usi
 
 The output of this run command should provide an indication on whether the unit tests passed or not.
 
+<br>
 
 ## Unit Test Modification
 
