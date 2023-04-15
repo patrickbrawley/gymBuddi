@@ -1,4 +1,0 @@
-/home/gymbuddi3/gymBuddi/unitTesting/Camera/CMakeFiles/rebuild_cache.dir
-/home/gymbuddi3/gymBuddi/unitTesting/Camera/CMakeFiles/edit_cache.dir
-/home/gymbuddi3/gymBuddi/unitTesting/Camera/CMakeFiles/test.dir
-/home/gymbuddi3/gymBuddi/unitTesting/Camera/CMakeFiles/runTests.dir
