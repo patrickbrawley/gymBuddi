@@ -54,7 +54,7 @@ gymBuddi uses the following technologies to create our product:
     </br>
     <p> GymBuddi is being developed by a team of MEng Electronic and Electrical Engineering students from the University of Glasgow, please feel free to get in contact with any of us if you have any questions. </p>
     <ul>
-   <li> gymbuddi@gmail.com - Lorcan McDermott </li>
+   <li> gymbuddi@gmail.com - Team Email </li>
    <li> 2389769m@student.gla.ac.uk - Lorcan McDermott </li>
    <li> 2388886b@student.gla.ac.uk - Patrick Brawley  </li>
    <li> 2390462k@student.gla.ac.uk - Reece Kelly </li>
@@ -65,6 +65,7 @@ gymBuddi uses the following technologies to create our product:
     <p> This project is licensed under the terms of the MIT license. </p>
     
 
-
+## More Information
+Please Refer to our [WIKI](https://github.com/patrickbrawley/gymBuddi/wiki) for more information!
 
 
