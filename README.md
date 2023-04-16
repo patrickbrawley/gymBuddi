@@ -21,11 +21,11 @@
 </div>
 <div align="left">
    <h2 align="left">Demo 🎥 </h2>
-   <p>GymBuddi is still in the developement stages and as of yet we have no demonstration video to show you. In the meantime, check out this great video on how to preform these exercices with the correct form avoiding common mistakes.
+   <p>GymBuddi is still in the developement stages however we have our user friendly GUI ready! Please watch our demo video for an explanation and look into our great product!
    </br> 
    </div> 
 
-   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/ProperForm.png)](https://www.youtube.com/watch?v=dBJry3tcX0Q)
+   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/ProperForm.png)](https://vimeo.com/818156271)
    </br>
 
 <div align="left">
