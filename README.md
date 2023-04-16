@@ -21,15 +21,17 @@
 </div>
 <div align="left">
    <h2 align="left">Demo 🎥 </h2>
-   <p>GymBuddi is still in the developement stages however we have our user friendly GUI ready! Please watch our demo video for an explanation and look into our great product!
+   <p>GymBuddi is still in the developement stages however we have our user friendly GUI ready! Please watch our demo video for an explanation and look into our great product! 
+
+For our demo video just click on the picture below!
    </br> 
    </div> 
 
-   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/ProperForm.png)](https://vimeo.com/818156271)
+   [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/sexyboys.jpg)](https://vimeo.com/818156271)
    </br>
 
 <div align="left">
-   <h2>Social Media</h2>
+   <h2>Social Media </h2>
    <p>Keep up to date with all the latest updates on our social media channels!</p>
    <p align="center">
 <a href="https://twitter.com" target="blank"><img align="center" src=https://github.com/patrickbrawley/gymBuddi/blob/main/Images/twitter.png alt="twitter" height="150" width="100" /></a>·
