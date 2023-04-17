@@ -13,12 +13,14 @@
 </div>
 <div align="left">
     <h2 align="left">Tell me more! </h2>
-    <p>GymBuddi is an open source software that uses machine learning and computer vision to count exercise repetitions, time workouts, and provide real-time form correction tips. It runs on Raspberry Pi and uses a camera to track movements. By utilising machine learning technologies such as OpenCV and TensorFlow, GymBuddi will ensure when a user is in the correct positions whilst performing the exercise.</p>
-    <br>
-    For more information, and the Installation Guide see the WIKI!
-    </br>
+    <p>GymBuddi is an open source software that uses machine learning and computer vision to count exercise repetitions, time workouts, and provide real-time form correction tips. It runs on Raspberry Pi and uses a camera to track movements. By utilising machine learning technologies such as OpenCV and TensorFlow, GymBuddi will ensure when a user is in the correct positions whilst performing the exercise.
+ </br>
+
+   
+For more information, and the [Installation Guide](https://github.com/patrickbrawley/gymBuddi/wiki/Installation-Guide) see the [WIKI](https://github.com/patrickbrawley/gymBuddi/wiki)!
+
     
-</div>
+
 <div align="left">
    <h2 align="left">Demo 🎥 </h2>
    <p>GymBuddi is still in the developement stages however we have our user friendly GUI ready! Please watch our demo video for an explanation and look into our great product! 
