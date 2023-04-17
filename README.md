@@ -22,10 +22,10 @@
 <div align="left">
    <h2 align="left">Demo 🎥 </h2>
    <p>GymBuddi is still in the developement stages however we have our user friendly GUI ready! Please watch our demo video for an explanation and look into our great product! 
-
-For our demo video just click on the picture below!
-   </br> 
-   </div> 
+ </br> 
+ 
+For our [demo video](https://vimeo.com/818156271) just click on the picture below!
+   
 
    [![demo](https://github.com/patrickbrawley/gymBuddi/blob/main/Images/sexyboys.jpg)](https://vimeo.com/818156271)
    </br>
